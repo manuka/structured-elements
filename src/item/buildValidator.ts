@@ -5,7 +5,7 @@ import { buildRecordValidator } from "@/lib/validation/item/buildRecordValidator
 
 export const buildItemValidator = <
   Registry extends Validation.BaseRegistry,
-  Subject
+  Subject,
 >({
   api,
   expectation,

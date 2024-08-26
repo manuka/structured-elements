@@ -10,7 +10,7 @@ const structure = `collection` as const
 
 export const buildCollectionValidator = <
   Registry extends Validation.BaseRegistry,
-  Element
+  Element,
 >({
   api,
   expectation,
@@ -46,7 +46,7 @@ export const buildCollectionValidator = <
                   ? `The following keys are not strings: ${JSON.stringify(
                       Object.keys(subject).filter((key) => {
                         return typeof key !== `string`
-                      })
+                      }),
                     )}.`
                   : `It has typeof: ${typeof subject}.`,
               ].join(` `),

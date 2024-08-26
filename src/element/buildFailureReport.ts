@@ -1,9 +1,10 @@
-import type { StructuredElements } from "@"
 import { buildElementPath } from "@/element/buildPath"
+
+import type { StructuredElements } from "@"
 
 export const buildFailureReport = <
   Registry extends StructuredElements.BaseRegistry,
-  Element
+  Element,
 >({
   api,
   element,
@@ -46,7 +47,7 @@ export const buildFailureReport = <
           expectation,
           failure,
           path,
-        }
+        },
       )
     }
 

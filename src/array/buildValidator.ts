@@ -1,15 +1,16 @@
-import type { StructuredElements } from "@"
 import { attemptArraySalvage } from "@/array/attemptSalvage"
 import { buildStructuredElementsResult } from "@/buildResult"
 import { isArray } from "@/isArray"
 import { validateElement } from "@/validateElement"
+
+import type { StructuredElements } from "@"
 
 const structure = `array` as const
 
 export const buildArrayValidator = <
   Registry extends StructuredElements.BaseRegistry,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  Element
+  Element,
 >({
   api,
   expectation,

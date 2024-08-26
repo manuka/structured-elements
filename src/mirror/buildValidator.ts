@@ -8,7 +8,7 @@ const structure = `mirror` as const
 
 export const buildMirrorValidator = <
   Registry extends Validation.BaseRegistry,
-  Element
+  Element,
 >({
   api,
   expectation,
@@ -81,12 +81,12 @@ export const buildMirrorValidator = <
 
       const arrayResult = arrayValidator.validate(
         subject.array,
-        `${name}.array`
+        `${name}.array`,
       )
 
       const collectionResult = collectionValidator.validate(
         subject.collection,
-        `${name}.collection`
+        `${name}.collection`,
       )
 
       const failures: Validation.Failure[] = [

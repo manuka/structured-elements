@@ -52,7 +52,7 @@ export const attemptItemSalvageViaBlanking: Validation.Functions.AttemptSalvage<
           name,
           subject,
           unsalvageableFailures,
-        }
+        },
       )
     }
 

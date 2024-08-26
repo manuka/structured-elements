@@ -1,7 +1,7 @@
 import { isRecord } from "@/primitive/isRecord"
 
 export const isStringKeyedRecord = (
-  subject: unknown
+  subject: unknown,
 ): subject is Record<string, unknown> => {
   if (!isRecord(subject)) {
     return false

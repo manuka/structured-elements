@@ -1,4 +1,4 @@
-import type { StructuredElements } from '@'
+import type { StructuredElements } from "@"
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const attemptArraySalvage: StructuredElements.Functions.AttemptSalvage<

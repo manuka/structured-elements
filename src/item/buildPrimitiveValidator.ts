@@ -7,7 +7,7 @@ const structure = `item` as const
 
 export const buildPrimitiveValidator = <
   Registry extends Validation.BaseRegistry,
-  Subject
+  Subject,
 >({
   api,
   expectation,
@@ -31,7 +31,7 @@ export const buildPrimitiveValidator = <
     validate: (
       subject,
       name,
-      attemptSalvage = attemptItemSalvage
+      attemptSalvage = attemptItemSalvage,
     ): Validation.Result<Subject> => {
       const cached = api.privateFunctions.getCachedResult({
         expectation,

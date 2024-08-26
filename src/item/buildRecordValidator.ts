@@ -9,7 +9,7 @@ const structure = `item` as const
 export const buildRecordValidator = <
   Registry extends Validation.BaseRegistry,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  Subject extends Record<string, any>
+  Subject extends Record<string, any>,
 >({
   api,
   schema,
@@ -35,7 +35,7 @@ export const buildRecordValidator = <
     validate: (
       subject,
       name,
-      attemptSalvage = attemptItemSalvage
+      attemptSalvage = attemptItemSalvage,
     ): Validation.Result<Subject> => {
       if (!isStringKeyedRecord(subject)) {
         return buildValidationResult({

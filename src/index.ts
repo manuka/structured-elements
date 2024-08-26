@@ -271,7 +271,7 @@ export namespace StructuredElements {
         if (api.internalCache.getValidator) {
           return api.internalCache.getValidator(
             expectation,
-            structure || (`item` as unknown as typeof structure)
+            structure || (`item` as unknown as typeof structure),
           )
         }
 
@@ -385,7 +385,7 @@ export namespace StructuredElements {
 
   export type RegistryEntry<
     Registry extends BaseRegistry,
-    ModelId extends keyof Registry
+    ModelId extends keyof Registry,
   > = {
     modelId: ModelId
     expect: () => Expectation<Registry, Registry[ModelId]>
@@ -395,7 +395,7 @@ export namespace StructuredElements {
   export type ReferenceContainer<
     Registry extends BaseRegistry,
     Subject,
-    Structure extends StructureOption
+    Structure extends StructureOption,
   > = {
     [referenceToken]: {
       structure: Structure
@@ -405,7 +405,7 @@ export namespace StructuredElements {
 
   export type ReferenceTarget<
     Registry extends BaseRegistry,
-    Subject
+    Subject,
   > = Subject extends Registry[keyof Registry]
     ? keyof Registry
     : Expectation<Registry, Subject>
@@ -432,7 +432,7 @@ export namespace StructuredElements {
   export namespace APIMethods {
     export type CacheResult<Registry extends BaseRegistry> = <
       Structure extends StructureOption,
-      Element
+      Element,
     >(args: {
       expectation: Expectation<Registry, Element>
       result: Result<StructuredElement<Structure, Element>>
@@ -440,7 +440,7 @@ export namespace StructuredElements {
     }) => Result<StructuredElement<Structure, Element>>
 
     export const curryCacheResult = <Registry extends BaseRegistry>(
-      api: API<Registry>
+      api: API<Registry>,
     ): CacheResult<Registry> => {
       return <Structure extends StructureOption, Element>({
         expectation,
@@ -459,7 +459,7 @@ export namespace StructuredElements {
 
             ;(api.results as ExpectationResultCache<Registry, Element>).set(
               expectation,
-              structuredResults
+              structuredResults,
             )
           }
 
@@ -475,7 +475,7 @@ export namespace StructuredElements {
 
     export type GetCachedResult<Registry extends BaseRegistry> = <
       Structure extends StructureOption,
-      Element
+      Element,
     >({
       expectation,
       structure,
@@ -487,7 +487,7 @@ export namespace StructuredElements {
     }) => Result<StructuredElement<Structure, Element>> | undefined
 
     export const curryGetCachedResult = <Registry extends BaseRegistry>(
-      api: API<Registry>
+      api: API<Registry>,
     ) => {
       return <Structure extends StructureOption, Element>({
         expectation,
@@ -516,10 +516,10 @@ export namespace StructuredElements {
     export type GetValidator<Registry extends BaseRegistry> = <
       Element,
       ExpectationArg extends Expectation<Registry, Element> | keyof Registry,
-      Structure extends StructureOption = `item`
+      Structure extends StructureOption = `item`,
     >(
       expectation: ExpectationArg,
-      structure?: Structure
+      structure?: Structure,
     ) => Validator<
       ExpectationArg extends keyof Registry
         ? Registry[ExpectationArg]
@@ -528,15 +528,15 @@ export namespace StructuredElements {
     >
 
     export const curryGetValidator = <Registry extends BaseRegistry>(
-      api: API<Registry>
+      api: API<Registry>,
     ): GetValidator<Registry> => {
       const getValidatorFn = <
         Element,
         ExpectationArg extends Expectation<Registry, Element> | keyof Registry,
-        Structure extends StructureOption = `item`
+        Structure extends StructureOption = `item`,
       >(
         expectation: ExpectationArg,
-        structure?: Structure
+        structure?: Structure,
       ) => {
         return ensureReferencedValidator<
           Registry,
@@ -559,7 +559,7 @@ export namespace StructuredElements {
                   ? Registry[ExpectationArg]
                   : Element
               >
-            >
+            >,
           ),
         })
       }
@@ -569,21 +569,21 @@ export namespace StructuredElements {
 
     export type BuildEqualityCheck<Registry extends BaseRegistry> = <
       Subject,
-      Structure extends StructureOption
+      Structure extends StructureOption,
     >(
       structure: Structure,
-      target: Subject | Subject[]
+      target: Subject | Subject[],
     ) => ReferenceContainer<Registry, Subject, Structure>
 
     export const curryBuildEqualityCheck = <
-      Registry extends BaseRegistry
+      Registry extends BaseRegistry,
     >(): APIMethods.BuildEqualityCheck<Registry> => {
       return <Subject, Structure extends StructureOption>(
         structure: Structure,
-        expectation: Subject | Subject[]
+        expectation: Subject | Subject[],
       ): ReferenceContainer<Registry, Subject, Structure> => {
         const equalityFunction: FunctionalExpectation<Subject> = (
-          subject
+          subject,
         ): subject is Subject => {
           const allowedValues = isArray(expectation)
             ? expectation
@@ -605,22 +605,22 @@ export namespace StructuredElements {
 
     export type BuildReference<Registry extends BaseRegistry> = <
       Subject,
-      Structure extends StructureOption
+      Structure extends StructureOption,
     >(
       structure: Structure,
       target: Subject extends Registry[keyof Registry]
         ? keyof Registry
-        : Expectation<Registry, Subject>
+        : Expectation<Registry, Subject>,
     ) => ReferenceContainer<Registry, Subject, Structure>
 
     export const curryBuildReference = <
-      Registry extends BaseRegistry
+      Registry extends BaseRegistry,
     >(): APIMethods.BuildReference<Registry> => {
       return <Subject, Structure extends StructureOption>(
         structure: Structure,
         target: Subject extends Registry[keyof Registry]
           ? keyof Registry
-          : Expectation<Registry, Subject>
+          : Expectation<Registry, Subject>,
       ): ReferenceContainer<Registry, Subject, Structure> => {
         return {
           [referenceToken]: {
@@ -632,14 +632,14 @@ export namespace StructuredElements {
     }
 
     export type BuildRegistryEntry<Registry extends BaseRegistry> = <
-      ModelId extends keyof Registry
+      ModelId extends keyof Registry,
     >(args: {
       modelId: ModelId
       expect: Functions.BuildModelExpectation<Registry, ModelId>
     }) => RegistryEntry<Registry, ModelId>
 
     export const curryBuildRegistryEntry = <Registry extends BaseRegistry>(
-      api: API<Registry>
+      api: API<Registry>,
     ): APIMethods.BuildRegistryEntry<Registry> => {
       return <ModelId extends keyof Registry>({
         modelId,
@@ -670,7 +670,7 @@ export namespace StructuredElements {
 
             api.internalCache.validators.set(
               expectation,
-              validators as Validators<any>
+              validators as Validators<any>,
             )
 
             return validators
@@ -701,7 +701,7 @@ export namespace StructuredElements {
 
   export type ExpectationResultCache<
     Registry extends BaseRegistry,
-    Element
+    Element,
   > = Map<Expectation<Registry, Element>, StructuredResultCache<Element>>
 
   export type StructuredResultCache<Element> = Map<
@@ -711,7 +711,7 @@ export namespace StructuredElements {
 
   export type SubjectResultCache<
     Structure extends StructureOption,
-    Element
+    Element,
   > = WeakMap<CacheableSubject, Result<StructuredElement<Structure, Element>>>
 
   // We use the WeakMap structure because it automatically cleans up
@@ -723,7 +723,7 @@ export namespace StructuredElements {
   // the application. WeakMap will throw an error if you try to use a
   // primitive value as a key.
   export const isCacheable = <Subject extends CacheableSubject>(
-    subject: unknown
+    subject: unknown,
   ): subject is Subject => {
     return typeof subject === `object` && subject !== null
   }
@@ -732,16 +732,16 @@ export namespace StructuredElements {
 
   export type StructuredElement<
     Structure extends StructureOption,
-    Element
+    Element,
   > = Structure extends `array`
     ? Element[]
     : Structure extends `collection`
-    ? Collection<Element>
-    : Structure extends `mirror`
-    ? Mirror<Element>
-    : Structure extends `item`
-    ? Element
-    : never
+      ? Collection<Element>
+      : Structure extends `mirror`
+        ? Mirror<Element>
+        : Structure extends `item`
+          ? Element
+          : never
 
   // A Collection is an object where the keys are strings and not known
   // in advance, usually because they are IDs or other dynamic data.
@@ -791,7 +791,7 @@ export namespace StructuredElements {
 
   export type ModelExpectation<
     Registry extends BaseRegistry,
-    ModelId extends keyof Registry
+    ModelId extends keyof Registry,
   > =
     | RecordSchema<Registry, Registry[ModelId]>
     | FunctionalExpectation<Registry[ModelId]>
@@ -799,22 +799,22 @@ export namespace StructuredElements {
 
   export type ModelArray<
     Registry extends BaseRegistry,
-    ModelId extends keyof Registry
+    ModelId extends keyof Registry,
   > = ModelExpectation<Registry, ModelId>[]
 
   export type FunctionalExpectation<Subject> = (
-    subject: unknown
+    subject: unknown,
   ) => subject is Subject
 
   export type PrimitiveExpectation<Subject> = Subject extends string
     ? `string`
     : Subject extends number
-    ? `number`
-    : Subject extends boolean
-    ? `boolean`
-    : Subject extends Date
-    ? `date`
-    : never
+      ? `number`
+      : Subject extends boolean
+        ? `boolean`
+        : Subject extends Date
+          ? `date`
+          : never
 
   export type Failure = {
     element: unknown
@@ -839,7 +839,7 @@ export namespace StructuredElements {
 
   export type RecordSchema<
     Registry extends BaseRegistry,
-    Subject
+    Subject,
   > = Subject extends object
     ? Required<{
         [Key in keyof Subject]: Expectation<Registry, Subject[keyof Subject]>
@@ -861,11 +861,11 @@ export namespace StructuredElements {
     getSalvage: (
       subject: unknown,
       name: string,
-      attemptSalvage?: Functions.AttemptSalvage<Structure>
+      attemptSalvage?: Functions.AttemptSalvage<Structure>,
     ) => StructuredElement<Structure, Element> | undefined
     isValid: (
       subject: unknown,
-      name: string
+      name: string,
     ) => subject is StructuredElement<Structure, Element>
     validate: (
       subject: unknown,
@@ -873,7 +873,7 @@ export namespace StructuredElements {
       // Supply this function if you want to manually salvage a subject that has failed validation.
       // By default, a salvaged subject contains only its valid elements.
       // Items and primitives are not salvageable by default.
-      attemptSalvage?: Functions.AttemptSalvage<Structure>
+      attemptSalvage?: Functions.AttemptSalvage<Structure>,
     ) => Result<StructuredElement<Structure, Element>>
   }
 
@@ -885,7 +885,7 @@ export namespace StructuredElements {
   export namespace Functions {
     export type AttemptSalvage<Structure extends StructureOption> = <
       Registry extends BaseRegistry,
-      Element
+      Element,
     >(args: {
       api: API<Registry>
       failures: Failure[]
@@ -904,12 +904,12 @@ export namespace StructuredElements {
 
     export type BuildModelExpectation<
       Registry extends BaseRegistry,
-      ModelId extends keyof Registry
+      ModelId extends keyof Registry,
     > = () => ModelExpectation<Registry, ModelId>
 
     export type Expect<
       Registry extends BaseRegistry,
-      ModelId extends keyof Registry
+      ModelId extends keyof Registry,
     > = (modelId: ModelId) => Expectation<Registry, Registry[ModelId]>
 
     export type IsValid<Subject> = (subject: unknown) => subject is Subject

@@ -8,10 +8,10 @@ import { referenceToken } from "@/lib/validation/referenceToken"
 
 export const isReferenceContainer = <
   Registry extends Validation.BaseRegistry,
-  Subject
+  Subject,
 >(
   api: Validation.API<Registry>,
-  subject: unknown
+  subject: unknown,
 ): subject is Validation.ReferenceContainer<
   Registry,
   Subject,
@@ -40,7 +40,7 @@ export const isReferenceContainer = <
         {
           subject,
           structure: reference.structure,
-        }
+        },
       )
     }
     return false
@@ -67,7 +67,7 @@ export const isReferenceContainer = <
         {
           subject,
           failures,
-        }
+        },
       )
     }
   }
@@ -81,7 +81,7 @@ export const isReferenceContainer = <
       `Validation#isReferenceContainer found invalid target:`,
       {
         subject,
-      }
+      },
     )
   }
 

@@ -1,17 +1,18 @@
-import type { StructuredElements } from "@"
 import { buildFailureReport } from "@/element/buildFailureReport"
+import { buildElementPath } from "@/element/buildPath"
 import { isArray } from "@/primitive/isArray"
 import { isDate } from "@/primitive/isDate"
 import { isRecordSchema } from "@/primitive/isRecordSchema"
 import { isStringKeyedRecord } from "@/primitive/isStringKeyedRecord"
 import { ensureReferencedValidator } from "@/reference/ensureValidator"
 import { isReferenceContainer } from "@/reference/isContainer"
-import { buildElementPath } from '@/element/buildPath'
+
+import type { StructuredElements } from "@"
 
 // This function validates an element against an expectation.
 export const validateElement = <
   Registry extends StructuredElements.BaseRegistry,
-  Element
+  Element,
 >({
   api,
   element,
@@ -161,7 +162,7 @@ export const validateElement = <
 
       const elementFailures = referencedValidator.getFailures(
         element,
-        elementName
+        elementName,
       )
 
       failures.push({
@@ -184,10 +185,8 @@ export const validateElement = <
     }
 
     if (isRecordSchema(api, possibility)) {
-      const recordValidator: StructuredElements.Validator<Element> = api.validator(
-        possibility,
-        `item`
-      )
+      const recordValidator: StructuredElements.Validator<Element> =
+        api.validator(possibility, `item`)
 
       if (recordValidator.isValid(element, elementName)) {
         return true
@@ -227,7 +226,7 @@ export const validateElement = <
         {
           recordSchema: isRecordSchema(api, possibility),
           stringKeyedRecord: isStringKeyedRecord(possibility),
-        }
+        },
       )
     }
 

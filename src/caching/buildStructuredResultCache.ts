@@ -2,7 +2,7 @@ import type { Validation } from "@/lib/validation"
 import { validationStructures } from "@/lib/validation/structures"
 
 export const buildStructuredResultCache = <
-  Element
+  Element,
 >(): Validation.StructuredResultCache<Element> => {
   const results = new Map()
 

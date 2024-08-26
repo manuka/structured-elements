@@ -3,7 +3,7 @@ import type { Validation } from "@/lib/validation"
 
 export const attemptMirrorSalvage = <
   Subject extends Validation.Mirror<Element>,
-  Element
+  Element,
 >({
   failures,
   subject,

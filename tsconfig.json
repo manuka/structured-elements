@@ -10,11 +10,11 @@
     "paths": {
       "@": ["./src/index"],
       "@/*": ["./src/*"],
-      "&/*": ["./test/*"],
+      "&/*": ["./test/*"]
     },
     "strict": true,
-    "target": "ES2019",
+    "target": "ES2019"
   },
   "exclude": ["node_modules"],
-  "include": ["src"],
+  "include": ["src"]
 }
