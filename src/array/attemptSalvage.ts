@@ -1,13 +1,14 @@
 import type { StructuredElements } from "@"
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const attemptArraySalvage: StructuredElements.Functions.AttemptSalvage<
   `array`
 > = <Registry extends StructuredElements.BaseRegistry, Element>({
+  api: _,
   failures,
   subject,
   validElements,
 }: {
+  api: StructuredElements.API<Registry>
   failures: StructuredElements.Failure[]
   subject: unknown
   validElements?: Element[]
