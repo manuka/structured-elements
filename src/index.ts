@@ -1,15 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { attemptArraySalvage } from "@/array/attemptSalvage"
-import { buildStructuredResultCache } from "@/buildStructuredResultCache"
-import { buildValidators } from "@/buildValidators"
-import { attemptCollectionSalvage } from "@/collection/attemptSalvage"
-import { isArray } from "@/isArray"
-import { attemptItemSalvage } from "@/item/attemptSalvage"
-import { attemptItemSalvageViaBlanking } from "@/item/attemptSalvageViaBlanking.ts"
-import { attemptMirrorSalvage } from "@/mirror/attemptSalvage"
-import { ensureReferencedValidator } from "@/reference/ensureValidator"
-import { referenceToken } from "@/referenceToken"
+import { attemptSalvageArray } from "@/attemptSalvage/array"
+import { attemptSalvageCollection } from "@/attemptSalvage/collection"
+import { attemptSalvageItem } from "@/attemptSalvage/item"
+import { attemptSalvageItemViaBlanking } from "@/attemptSalvage/itemViaBlanking"
+import { attemptSalvageMirror } from "@/attemptSalvage/mirror"
+import { buildReferenceValidators } from "@/build/referenceValidators"
+import { buildStructuredResultCache } from "@/build/structuredResultCache"
+import { referenceToken } from "@/constants"
+import { ensureReferencedValidator } from "@/ensure/referencedValidator"
+import { isArray } from "@/is/array"
 
 // This library allows an application to easily validate data by
 // defining a standard set of expectations for each known Type.
@@ -188,7 +188,7 @@ export namespace StructuredElements {
       prepareModelRegistry: Functions.PrepareModelRegistry<Registry>
       reference?: APIMethods.BuildReference<Registry>
       registerModel?: APIMethods.BuildRegistryEntry<Registry>
-      validators: Map<Expectation<Registry, any>, Validators<any>>
+      validators: Map<Expectation<Registry, any>, ReferenceValidators<any>>
     }
   }
 
@@ -287,13 +287,13 @@ export namespace StructuredElements {
       // attemptSalvage operation into a validator.
       attemptSalvage: {
         // Salvage an array by filtering out invalid elements.
-        array: attemptArraySalvage,
+        array: attemptSalvageArray,
 
         // Salvage a collection by filtering out invalid entries.
-        collection: attemptCollectionSalvage,
+        collection: attemptSalvageCollection,
 
         // By default, we do not salvage invalid items. This returns undefined.
-        item: attemptItemSalvage,
+        item: attemptSalvageItem,
 
         // Attempt to salvage an item by discarding optional invalid fields.
         // This checks each invalid field against its expectation.
@@ -304,13 +304,13 @@ export namespace StructuredElements {
         //
         // If the item has one or more invalid fields that cannot be blank,
         // the entire item is considered invalid and this returns undefined.
-        itemViaBlanking: attemptItemSalvageViaBlanking,
+        itemViaBlanking: attemptSalvageItemViaBlanking,
 
         // Salvage a mirror by building a new one using only the valid elements
         // from its collection. This process ignores the entire array, potentially
         // discarding some valid array elements that are not in the collection,
         // because we do not know what those elements would have used as keys.
-        mirror: attemptMirrorSalvage,
+        mirror: attemptSalvageMirror,
       },
 
       // This object contains functions that are used internally by the library.
@@ -389,7 +389,7 @@ export namespace StructuredElements {
   > = {
     modelId: ModelId
     expect: () => Expectation<Registry, Registry[ModelId]>
-    validators: () => Validators<Registry[ModelId]>
+    validators: () => ReferenceValidators<Registry[ModelId]>
   }
 
   export type ReferenceContainer<
@@ -410,11 +410,11 @@ export namespace StructuredElements {
     ? keyof Registry
     : Expectation<Registry, Subject>
 
-  export type ReferenceToken = `_ValidationReference`
+  export type ReferenceToken = `_StructuredElementReference`
 
   // The result of validating a subject against an expectation
   // We cache this per expectation and per subject
-  export type Result<Subject> = {
+  export type ValidationResult<Subject> = {
     failures: Failure[]
     salvage: Subject | undefined
   } & (
@@ -435,9 +435,9 @@ export namespace StructuredElements {
       Element,
     >(args: {
       expectation: Expectation<Registry, Element>
-      result: Result<StructuredElement<Structure, Element>>
+      result: ValidationResult<StructuredElement<Structure, Element>>
       structure: Structure
-    }) => Result<StructuredElement<Structure, Element>>
+    }) => ValidationResult<StructuredElement<Structure, Element>>
 
     export const curryCacheResult = <Registry extends BaseRegistry>(
       api: API<Registry>,
@@ -448,18 +448,18 @@ export namespace StructuredElements {
         structure,
       }: {
         expectation: Expectation<Registry, Element>
-        result: Result<StructuredElement<Structure, Element>>
+        result: ValidationResult<StructuredElement<Structure, Element>>
         structure: Structure
       }) => {
         if (isCacheable(result.subject)) {
           const subject = result.subject
 
           if (!api.results.has(expectation)) {
-            const structuredResults = buildStructuredResultCache<Element>()
+            const structuredResultCache = buildStructuredResultCache<Element>()
 
             ;(api.results as ExpectationResultCache<Registry, Element>).set(
               expectation,
-              structuredResults,
+              structuredResultCache,
             )
           }
 
@@ -484,7 +484,7 @@ export namespace StructuredElements {
       expectation: Expectation<Registry, Element>
       structure: Structure
       subject: StructuredElement<Structure, Element> | unknown
-    }) => Result<StructuredElement<Structure, Element>> | undefined
+    }) => ValidationResult<StructuredElement<Structure, Element>> | undefined
 
     export const curryGetCachedResult = <Registry extends BaseRegistry>(
       api: API<Registry>,
@@ -497,7 +497,9 @@ export namespace StructuredElements {
         expectation: Expectation<Registry, Element>
         structure: Structure
         subject: StructuredElement<Structure, Element> | unknown
-      }): Result<StructuredElement<Structure, Element>> | undefined => {
+      }):
+        | ValidationResult<StructuredElement<Structure, Element>>
+        | undefined => {
         if (isCacheable(subject)) {
           const cachedResult = (
             api.results as ExpectationResultCache<Registry, Element>
@@ -507,7 +509,7 @@ export namespace StructuredElements {
             ?.get(subject)
 
           return cachedResult as
-            | Result<StructuredElement<Structure, Element>>
+            | ValidationResult<StructuredElement<Structure, Element>>
             | undefined
         }
       }
@@ -656,21 +658,21 @@ export namespace StructuredElements {
           validators: () => {
             const expectation = registryEntry.expect()
             const cached = api.internalCache.validators.get(expectation) as
-              | Validators<Registry[ModelId]>
+              | ReferenceValidators<Registry[ModelId]>
               | undefined
 
             if (cached) {
               return cached
             }
 
-            const validators = buildValidators({
+            const validators = buildReferenceValidators({
               api,
               expectation,
             })
 
             api.internalCache.validators.set(
               expectation,
-              validators as Validators<any>,
+              validators as ReferenceValidators<any>,
             )
 
             return validators
@@ -712,7 +714,10 @@ export namespace StructuredElements {
   export type SubjectResultCache<
     Structure extends StructureOption,
     Element,
-  > = WeakMap<CacheableSubject, Result<StructuredElement<Structure, Element>>>
+  > = WeakMap<
+    CacheableSubject,
+    ValidationResult<StructuredElement<Structure, Element>>
+  >
 
   // We use the WeakMap structure because it automatically cleans up
   // after itself when the subject is garbage collected. It stores the
@@ -874,10 +879,10 @@ export namespace StructuredElements {
       // By default, a salvaged subject contains only its valid elements.
       // Items and primitives are not salvageable by default.
       attemptSalvage?: Functions.AttemptSalvage<Structure>,
-    ) => Result<StructuredElement<Structure, Element>>
+    ) => ValidationResult<StructuredElement<Structure, Element>>
   }
 
-  export type Validators<Element> = Record<
+  export type ReferenceValidators<Element> = Record<
     StructureOption,
     Validator<Element, StructureOption>
   >
