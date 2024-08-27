@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
+export { Mirror } from "@/mirror"
+
 import { attemptSalvageArray } from "@/attemptSalvage/array"
 import { attemptSalvageCollection } from "@/attemptSalvage/collection"
 import { attemptSalvageItem } from "@/attemptSalvage/item"
@@ -58,7 +60,7 @@ import { isArray } from "@/is/array"
 //
 // (lib/models.ts)
 //
-// import { Validation } from '@/;
+// import { StructuredElements } from 'structured-elements;
 // import { type Person, PersonModel } from '@/lib/person';
 // import { type Thing, ThingModel } from '@/lib/thing';
 //
@@ -67,12 +69,12 @@ import { isArray } from "@/is/array"
 //   Thing: Thing;
 // }
 //
-// export type Model<ModelId extends keyof Registry> = Validation.Model<
+// export type Model<ModelId extends keyof Registry> = StructuredElements.Model<
 //   Registry,
 //   ModelId
 // >;
 //
-// export const Modelling = Validation.setup<Registry>({
+// export const Modelling = StructuredElements.setup<Registry>({
 //   debugEnabled: () => process.env.NODE_ENV === 'development',
 //   models: {
 //     Person: PersonModel,
@@ -135,7 +137,7 @@ import { isArray } from "@/is/array"
 export namespace StructuredElements {
   // The Registry is a typescript record of all the models that have been defined.
   // We use it to look up model types by their ID.
-  // To use this Validation library, you need to define a Registry type that contains all the models that you want to validate.
+  // To use this library, you need to define a Registry type that contains all the models that you want to validate.
   // The recommended approach is to match your modelId registry keys to the names of the types in your application.
   // For example, if you want to be able to validate a type called Item, you would add a registry entry with the modelId 'Item' and map it to the Item type.
   export type BaseRegistry = Record<string, CacheableSubject>
