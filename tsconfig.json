@@ -8,9 +8,10 @@
     "noErrorTruncation": true,
     "outDir": "./dist",
     "paths": {
-      "@": ["./src/index"],
-      "@/*": ["./src/*"],
-      "&/*": ["./test/*"]
+      "@": ["src/index"],
+      "@/*": ["src/*"],
+      "&": ["test/index"],
+      "&/*": ["test/*"]
     },
     "strict": true,
     "target": "ES2019"
