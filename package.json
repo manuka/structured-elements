@@ -39,7 +39,7 @@
     "url": "https://github.com/manuka/structured-elements.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "eslint": "eslint . --fix",
     "format:check": "prettier -c .",
     "format": "prettier -w .",

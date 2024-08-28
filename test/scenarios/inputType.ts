@@ -10,6 +10,30 @@ const baseInputs = {
   undefined: undefined,
 }
 
+export const curryTestByInputType = <
+  TestArgs,
+  SubjectArg extends keyof TestArgs,
+>({
+  arg,
+  defaultInputs = baseInputs,
+  extraInputs,
+}: {
+  arg: SubjectArg
+  defaultInputs?: Record<string, unknown>
+  extraInputs?: Record<string, unknown>
+}) => {
+  return (addTest: NestedTest.AddTestFunction<TestArgs>) => {
+    describe(`${String(arg)}:`, () => {
+      testByInputType({
+        addTest,
+        arg,
+        defaultInputs,
+        extraInputs,
+      })
+    })
+  }
+}
+
 export const testByInputType = <TestArgs, SubjectArg extends keyof TestArgs>({
   addTest,
   arg,
@@ -27,7 +51,7 @@ export const testByInputType = <TestArgs, SubjectArg extends keyof TestArgs>({
   }
 
   for (const description in inputs) {
-    describe(`${description};`, () => {
+    describe(`${description},`, () => {
       addTest({
         [arg]: inputs[description],
       } as unknown as Partial<TestArgs>)

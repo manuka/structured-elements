@@ -1,6 +1,6 @@
 import { Test } from "../.."
 import { validThing } from "../../models/thing"
-import { testByInputType } from "../../scenarios/testByInputType"
+import { testByInputType } from "../../scenarios/inputType"
 
 import type { NestedTest } from "test-nested-scenarios"
 import { testNestedScenarios } from "test-nested-scenarios"
@@ -11,7 +11,7 @@ type TestArgs = {
   roleId?: unknown
 }
 
-describe(`Validator: Person, item;`, () => {
+describe(`Validator: Person, item;\n  `, () => {
   const runTest: NestedTest.RunTestFunction<TestArgs> = (testArgs) => {
     const { inventory, name, roleId } = testArgs
 
