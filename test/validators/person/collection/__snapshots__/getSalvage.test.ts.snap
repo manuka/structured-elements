@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Invalid), person2: (Invalid), },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -23,20 +23,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Invalid), person2: undefined, },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -49,15 +49,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -70,7 +70,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -83,15 +83,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -104,20 +104,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: undefined, person2: (Invalid), },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -130,20 +130,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Invalid), person1: undefined, person2: undefined, },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -156,15 +156,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -177,7 +177,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -190,15 +190,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -211,15 +211,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -232,7 +232,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -245,15 +245,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -266,7 +266,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -279,7 +279,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -292,15 +292,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -313,7 +313,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -326,15 +326,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -347,15 +347,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -368,7 +368,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -381,15 +381,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: (Valid), person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-0": {
     "id": "Valid Person.id-0",
     "inventory": [
       {
@@ -402,20 +402,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Invalid), person2: (Invalid), },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -428,20 +428,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Invalid), person2: undefined, },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -454,15 +454,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -475,7 +475,7 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-  {
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -488,15 +488,15 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-1": {
     "id": "Valid Person.id-1",
     "inventory": [
       {
@@ -509,20 +509,20 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: undefined, person2: (Invalid), },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
-[
-  {
+{
+  "Valid Person.id-2": {
     "id": "Valid Person.id-2",
     "inventory": [
       {
@@ -535,10 +535,10 @@ exports[`validator('Person', 'array').getSalvage(
     ],
     "name": "Valid Person.name",
   },
-]
+}
 `;
 
-exports[`validator('Person', 'array').getSalvage(
+exports[`validator('Person', 'collection').getSalvage(
   { person0: undefined, person1: undefined, person2: undefined, },
   'Person'
-) 1`] = `[]`;
+) 1`] = `{}`;

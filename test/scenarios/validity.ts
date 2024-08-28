@@ -2,21 +2,21 @@ import type { ScenarioInputs } from "&/scenarios/assemble"
 import { assembleScenario } from "&/scenarios/assemble"
 import type { NestedTest } from "test-nested-scenarios"
 
-export const curryBinaryValidityTest = <
-  TestArgs,
-  SubjectArg extends keyof TestArgs,
->({
+export const curryValidityTest = <TestArgs, SubjectArg extends keyof TestArgs>({
   arg,
   extraInputs,
+  blank,
   invalid,
   valid,
 }: {
   arg: SubjectArg
   extraInputs?: ScenarioInputs
+  blank?: undefined | null | false
   invalid: TestArgs[SubjectArg]
   valid: TestArgs[SubjectArg]
 }) => {
   const inputs = {
+    [`${blank}`]: blank,
     "(Invalid)": invalid,
     "(Valid)": valid,
     ...extraInputs,

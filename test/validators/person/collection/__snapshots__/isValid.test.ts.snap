@@ -1,136 +1,136 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Invalid), person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `true`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: (Valid), person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `false`;
 
-exports[`validator('Person', 'array').isValid(
+exports[`validator('Person', 'collection').isValid(
   { person0: undefined, person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `false`;

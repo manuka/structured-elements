@@ -2,13 +2,14 @@ import type { StructuredElements } from "@"
 import { Test } from "&"
 import { buildTestArray } from "&/models/array"
 import { type Person, invalidPerson, validPerson } from "&/models/person"
+import type { RecordWithId } from "&/models/recordWithId"
 import { curryValidityTest } from "&/scenarios/validity"
 import type { NestedTest } from "test-nested-scenarios"
 
 type TestArgs = {
-  person0: unknown
-  person1: unknown
-  person2: unknown
+  person0: RecordWithId | undefined
+  person1: RecordWithId | undefined
+  person2: RecordWithId | undefined
 }
 
 type Expectation = ({
@@ -16,7 +17,7 @@ type Expectation = ({
   validator,
 }: {
   subject: unknown
-  validator: StructuredElements.Validator<Person, "array">
+  validator: StructuredElements.Validator<Person, "collection">
 }) => void
 
 const curryRunTest = ({
@@ -27,9 +28,18 @@ const curryRunTest = ({
   return (testArgs) => {
     const { person0, person1, person2 } = testArgs
 
-    const subject = [person0, person1, person2]
+    const subject = [person0, person1, person2].reduce<
+      Record<string, RecordWithId | undefined>
+    >((collection, person, index) => {
+      if (person) {
+        collection[person.id] = person
+      } else {
+        collection[`person${index}`] = person
+      }
+      return collection
+    }, {})
 
-    const validator = Test.Modelling.validator(`Person`, `array`)
+    const validator = Test.Modelling.validator(`Person`, `collection`)
 
     expectation({ subject, validator })
   }

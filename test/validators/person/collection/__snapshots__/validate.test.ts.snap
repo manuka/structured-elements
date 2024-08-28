@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -59,13 +59,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -97,12 +97,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -113,8 +113,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -154,32 +154,32 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+      },
     },
     {
       "element": {
@@ -234,13 +234,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -272,12 +272,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -288,8 +288,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -329,32 +329,32 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+      },
     },
     {
       "element": {
@@ -409,13 +409,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -447,12 +447,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -463,8 +463,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -504,57 +504,57 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -613,13 +613,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -651,12 +651,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -667,8 +667,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -708,27 +708,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -741,7 +741,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+      },
     },
     {
       "element": {
@@ -796,13 +796,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -834,12 +834,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -850,8 +850,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -891,27 +891,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -924,11 +924,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -941,19 +941,19 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -966,12 +966,12 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -1030,13 +1030,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -1068,12 +1068,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -1084,8 +1084,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -1125,28 +1125,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
     {
       "element": {
@@ -1201,13 +1201,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -1239,12 +1239,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -1255,8 +1255,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -1296,28 +1296,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -1353,13 +1353,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -1393,49 +1393,49 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-  ],
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -1494,13 +1494,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -1532,12 +1532,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -1548,8 +1548,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -1589,22 +1589,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -1617,12 +1622,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+      },
     },
     {
       "element": {
@@ -1677,13 +1677,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -1715,12 +1715,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -1731,8 +1731,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -1772,22 +1772,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -1800,16 +1805,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -1822,14 +1822,19 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-2": {
+      "id": "Invalid Person.id-2",
+      "inventory": undefined,
+      "name": "Invalid Person.name",
+    },
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -1842,17 +1847,12 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
-      "id": "Invalid Person.id-2",
-      "inventory": undefined,
-      "name": "Invalid Person.name",
-    },
-  ],
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -1911,13 +1911,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -1949,12 +1949,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -1965,8 +1965,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -2006,22 +2006,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -2034,7 +2034,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -2047,11 +2047,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -2064,7 +2064,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -2077,14 +2077,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -2097,7 +2097,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -2110,12 +2110,12 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -2174,13 +2174,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -2212,12 +2212,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -2228,8 +2228,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -2269,22 +2269,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -2297,8 +2297,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -2334,13 +2334,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -2374,22 +2374,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -2402,12 +2402,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -2420,14 +2420,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -2440,13 +2440,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    undefined,
-  ],
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -2505,13 +2505,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -2543,12 +2543,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -2559,8 +2559,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -2600,28 +2600,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
     {
       "element": undefined,
@@ -2657,13 +2657,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -2697,28 +2697,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
     {
       "element": {
@@ -2773,13 +2773,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -2811,12 +2811,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -2827,8 +2827,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -2868,49 +2868,49 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-    {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -2969,13 +2969,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -3007,12 +3007,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -3023,8 +3023,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -3064,23 +3064,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -3093,7 +3092,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
     {
       "element": undefined,
@@ -3129,13 +3129,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -3169,23 +3169,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -3198,11 +3197,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -3215,15 +3215,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -3236,12 +3235,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Invalid), person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `
@@ -3300,13 +3300,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.0.inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-0.inventory",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.0.inventory",
+          "name": "Person.Invalid Person.id-0.inventory",
           "reason": [
             {
               "expectation": {
@@ -3338,12 +3338,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.0.inventory",
-                "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-0.inventory",
+                "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -3354,8 +3354,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "Invalid Person.id-0",
+      "name": "Person.Invalid Person.id-0",
       "reason": [
         {
           "expectation": {
@@ -3395,24 +3395,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0.inventory",
-            "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-0.inventory",
+            "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "0.inventory",
-          "reason": "Person.0.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-0.inventory",
+          "reason": "Person.Invalid Person.id-0.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        undefined,
-      ],
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -3448,13 +3448,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -3488,24 +3488,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        undefined,
-      ],
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -3541,13 +3541,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -3581,41 +3581,41 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-0": {
           "id": "Invalid Person.id-0",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-        undefined,
-      ],
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-0": {
       "id": "Invalid Person.id-0",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-    undefined,
-  ],
+    "person1": undefined,
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -3674,13 +3674,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -3712,12 +3712,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -3728,8 +3728,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -3769,17 +3769,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-1": {
+          "id": "Invalid Person.id-1",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -3792,17 +3802,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-1",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+      },
     },
     {
       "element": {
@@ -3857,13 +3857,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -3895,12 +3895,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -3911,8 +3911,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -3952,17 +3952,27 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-1": {
+          "id": "Invalid Person.id-1",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -3975,21 +3985,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-1",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4002,37 +4002,37 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
-      "id": "Valid Person.id-0",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
+  },
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "Valid Person.id-0": {
+      "id": "Valid Person.id-0",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -4091,13 +4091,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -4129,12 +4129,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -4145,8 +4145,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -4186,17 +4186,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-1": {
+          "id": "Invalid Person.id-1",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -4209,12 +4214,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-1",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -4227,11 +4227,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4244,7 +4244,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -4257,27 +4257,27 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
-      "id": "Valid Person.id-0",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
+  },
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Valid Person.id-0": {
+      "id": "Valid Person.id-0",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -4290,12 +4290,12 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -4354,13 +4354,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -4392,12 +4392,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -4408,8 +4408,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -4449,17 +4449,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-1": {
+          "id": "Invalid Person.id-1",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -4472,13 +4477,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-1",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -4514,13 +4514,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -4554,17 +4554,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-1": {
+          "id": "Invalid Person.id-1",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -4577,17 +4582,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-1",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4600,33 +4600,33 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
-      "id": "Valid Person.id-0",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
+  },
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-  ],
+    "Valid Person.id-0": {
+      "id": "Valid Person.id-0",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -4685,13 +4685,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -4723,12 +4723,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -4739,8 +4739,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -4780,17 +4780,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -4803,7 +4808,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -4816,16 +4821,11 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4838,7 +4838,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -4851,52 +4851,52 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
-      "id": "Valid Person.id-0",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
-      "id": "Valid Person.id-1",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
+  },
+  "subject": {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "Valid Person.id-0": {
+      "id": "Valid Person.id-0",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+    "Valid Person.id-1": {
+      "id": "Valid Person.id-1",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
 {
   "failures": [],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4909,7 +4909,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -4922,7 +4922,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -4935,9 +4935,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -4950,7 +4950,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -4963,7 +4963,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -4976,12 +4976,12 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+  },
   "valid": true,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -5021,13 +5021,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -5061,17 +5061,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5084,7 +5084,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -5097,12 +5097,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-      ],
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5115,7 +5115,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -5128,9 +5128,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5143,7 +5143,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -5156,13 +5156,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    undefined,
-  ],
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -5202,13 +5202,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -5242,17 +5242,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5265,13 +5270,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+        "person1": undefined,
+      },
     },
     {
       "element": {
@@ -5326,13 +5326,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -5364,12 +5364,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -5380,8 +5380,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -5421,17 +5421,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5444,17 +5449,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5467,33 +5467,33 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
-      "id": "Valid Person.id-0",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    undefined,
-    {
+  },
+  "subject": {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "Valid Person.id-0": {
+      "id": "Valid Person.id-0",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -5533,13 +5533,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -5573,17 +5573,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5596,8 +5596,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -5610,11 +5609,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5627,7 +5627,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -5640,9 +5640,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5655,8 +5655,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    undefined,
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -5669,12 +5668,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: (Valid), person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `
@@ -5714,13 +5714,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -5754,17 +5754,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5777,9 +5777,9 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-        undefined,
-      ],
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -5815,13 +5815,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -5855,17 +5855,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        {
+      "subject": {
+        "Valid Person.id-0": {
           "id": "Valid Person.id-0",
           "inventory": [
             {
@@ -5878,13 +5878,13 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-        undefined,
-      ],
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5897,9 +5897,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    {
+  },
+  "subject": {
+    "Valid Person.id-0": {
       "id": "Valid Person.id-0",
       "inventory": [
         {
@@ -5912,14 +5912,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    undefined,
-    undefined,
-  ],
+    "person1": undefined,
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Invalid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -5959,13 +5959,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -5999,28 +5999,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
     {
       "element": {
@@ -6075,13 +6075,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -6113,12 +6113,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -6129,8 +6129,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -6170,28 +6170,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
     {
       "element": {
@@ -6246,13 +6246,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -6284,12 +6284,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -6300,8 +6300,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -6341,49 +6341,49 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    undefined,
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "person0": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Invalid), person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -6423,13 +6423,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -6463,23 +6463,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -6492,7 +6491,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
     {
       "element": {
@@ -6547,13 +6547,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -6585,12 +6585,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -6601,8 +6601,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -6642,23 +6642,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -6671,11 +6670,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -6688,15 +6688,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    undefined,
-    {
+  },
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -6709,12 +6708,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+    "person0": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Invalid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -6754,13 +6754,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -6794,24 +6794,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person0": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": {
@@ -6866,13 +6866,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.1.inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-1.inventory",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.1.inventory",
+          "name": "Person.Invalid Person.id-1.inventory",
           "reason": [
             {
               "expectation": {
@@ -6904,12 +6904,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.1.inventory",
-                "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-1.inventory",
+                "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -6920,8 +6920,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "Invalid Person.id-1",
+      "name": "Person.Invalid Person.id-1",
       "reason": [
         {
           "expectation": {
@@ -6961,24 +6961,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1.inventory",
-            "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-1.inventory",
+            "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "1.inventory",
-          "reason": "Person.1.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-1.inventory",
+          "reason": "Person.Invalid Person.id-1.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person0": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -7014,13 +7014,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -7054,41 +7054,41 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-1": {
           "id": "Invalid Person.id-1",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-        undefined,
-      ],
+        "person0": undefined,
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    undefined,
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-1": {
       "id": "Invalid Person.id-1",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-    undefined,
-  ],
+    "person0": undefined,
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Valid), person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -7128,13 +7128,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -7168,18 +7168,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -7192,12 +7196,8 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+        "person0": undefined,
+      },
     },
     {
       "element": {
@@ -7252,13 +7252,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -7290,12 +7290,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -7306,8 +7306,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -7347,18 +7347,22 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-2": {
+          "id": "Invalid Person.id-2",
+          "inventory": undefined,
+          "name": "Invalid Person.name",
+        },
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -7371,16 +7375,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
-          "id": "Invalid Person.id-2",
-          "inventory": undefined,
-          "name": "Invalid Person.name",
-        },
-      ],
+        "person0": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -7393,33 +7393,33 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    undefined,
-    {
-      "id": "Valid Person.id-1",
-      "inventory": [
-        {
-          "id": "Valid Thing.id",
-          "name": "Valid Thing.name",
-          "parts": {},
-          "type": "gadget",
-          "weight": 1,
-        },
-      ],
-      "name": "Valid Person.name",
-    },
-    {
+  },
+  "subject": {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "Valid Person.id-1": {
+      "id": "Valid Person.id-1",
+      "inventory": [
+        {
+          "id": "Valid Thing.id",
+          "name": "Valid Thing.name",
+          "parts": {},
+          "type": "gadget",
+          "weight": 1,
+        },
+      ],
+      "name": "Valid Person.name",
+    },
+    "person0": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Valid), person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -7459,13 +7459,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -7499,18 +7499,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -7523,7 +7522,7 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -7536,11 +7535,12 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person0": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -7553,7 +7553,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -7566,10 +7566,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    undefined,
-    {
+  },
+  "subject": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -7582,7 +7581,7 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -7595,12 +7594,13 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+    "person0": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: (Valid), person2: undefined, },
   'Person'
 ) 1`] = `
@@ -7640,13 +7640,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -7680,18 +7680,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -7704,8 +7703,9 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-      ],
+        "person0": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -7741,13 +7741,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -7781,18 +7781,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        {
+      "subject": {
+        "Valid Person.id-1": {
           "id": "Valid Person.id-1",
           "inventory": [
             {
@@ -7805,12 +7804,13 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-        undefined,
-      ],
+        "person0": undefined,
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -7823,10 +7823,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    undefined,
-    {
+  },
+  "subject": {
+    "Valid Person.id-1": {
       "id": "Valid Person.id-1",
       "inventory": [
         {
@@ -7839,13 +7838,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-    undefined,
-  ],
+    "person0": undefined,
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: undefined, person2: (Invalid), },
   'Person'
 ) 1`] = `
@@ -7885,13 +7885,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -7925,24 +7925,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+        "person1": undefined,
+      },
     },
     {
       "element": undefined,
@@ -7978,13 +7978,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -8018,24 +8018,24 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+        "person1": undefined,
+      },
     },
     {
       "element": {
@@ -8090,13 +8090,13 @@ exports[`validator('Person', 'array').validate(
                 ],
               },
               "key": "(subject)",
-              "name": "Person.2.inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "name": "Person.Invalid Person.id-2.inventory",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "subject": undefined,
             },
           ],
           "key": "inventory",
-          "name": "Person.2.inventory",
+          "name": "Person.Invalid Person.id-2.inventory",
           "reason": [
             {
               "expectation": {
@@ -8128,12 +8128,12 @@ exports[`validator('Person', 'array').validate(
                   ],
                 },
                 "key": "(subject)",
-                "name": "Person.2.inventory",
-                "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+                "name": "Person.Invalid Person.id-2.inventory",
+                "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
                 "subject": undefined,
               },
               "path": "inventory",
-              "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+              "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
               "value": undefined,
             },
           ],
@@ -8144,8 +8144,8 @@ exports[`validator('Person', 'array').validate(
           },
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "Invalid Person.id-2",
+      "name": "Person.Invalid Person.id-2",
       "reason": [
         {
           "expectation": {
@@ -8185,41 +8185,41 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2.inventory",
-            "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+            "name": "Person.Invalid Person.id-2.inventory",
+            "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
             "subject": undefined,
           },
-          "path": "2.inventory",
-          "reason": "Person.2.inventory expected to be an array, but isn't. It has typeof undefined",
+          "path": "Invalid Person.id-2.inventory",
+          "reason": "Person.Invalid Person.id-2.inventory expected to be an array, but isn't. It has typeof undefined",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        {
+      "subject": {
+        "Invalid Person.id-2": {
           "id": "Invalid Person.id-2",
           "inventory": undefined,
           "name": "Invalid Person.name",
         },
-      ],
+        "person0": undefined,
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    undefined,
-    undefined,
-    {
+  "salvage": {},
+  "subject": {
+    "Invalid Person.id-2": {
       "id": "Invalid Person.id-2",
       "inventory": undefined,
       "name": "Invalid Person.name",
     },
-  ],
+    "person0": undefined,
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: undefined, person2: (Valid), },
   'Person'
 ) 1`] = `
@@ -8259,13 +8259,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -8299,19 +8299,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        {
+      "subject": {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -8324,7 +8322,9 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person0": undefined,
+        "person1": undefined,
+      },
     },
     {
       "element": undefined,
@@ -8360,13 +8360,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -8400,19 +8400,17 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        {
+      "subject": {
+        "Valid Person.id-2": {
           "id": "Valid Person.id-2",
           "inventory": [
             {
@@ -8425,11 +8423,13 @@ exports[`validator('Person', 'array').validate(
           ],
           "name": "Valid Person.name",
         },
-      ],
+        "person0": undefined,
+        "person1": undefined,
+      },
     },
   ],
-  "salvage": [
-    {
+  "salvage": {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -8442,11 +8442,9 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
-  "subject": [
-    undefined,
-    undefined,
-    {
+  },
+  "subject": {
+    "Valid Person.id-2": {
       "id": "Valid Person.id-2",
       "inventory": [
         {
@@ -8459,12 +8457,14 @@ exports[`validator('Person', 'array').validate(
       ],
       "name": "Valid Person.name",
     },
-  ],
+    "person0": undefined,
+    "person1": undefined,
+  },
   "valid": false,
 }
 `;
 
-exports[`validator('Person', 'array').validate(
+exports[`validator('Person', 'collection').validate(
   { person0: undefined, person1: undefined, person2: undefined, },
   'Person'
 ) 1`] = `
@@ -8504,13 +8504,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "0",
-      "name": "Person.0",
+      "key": "person0",
+      "name": "Person.person0",
       "reason": [
         {
           "expectation": {
@@ -8544,20 +8544,20 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.0",
-            "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person0",
+            "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "0",
-          "reason": "Person.0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person0",
+          "reason": "Person.person0 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        undefined,
-      ],
+      "subject": {
+        "person0": undefined,
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -8593,13 +8593,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "1",
-      "name": "Person.1",
+      "key": "person1",
+      "name": "Person.person1",
       "reason": [
         {
           "expectation": {
@@ -8633,20 +8633,20 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.1",
-            "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person1",
+            "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "1",
-          "reason": "Person.1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person1",
+          "reason": "Person.person1 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        undefined,
-      ],
+      "subject": {
+        "person0": undefined,
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
     {
       "element": undefined,
@@ -8682,13 +8682,13 @@ exports[`validator('Person', 'array').validate(
             ],
           },
           "key": "(subject)",
-          "name": "Person.2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "name": "Person.person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "subject": undefined,
         },
       ],
-      "key": "2",
-      "name": "Person.2",
+      "key": "person2",
+      "name": "Person.person2",
       "reason": [
         {
           "expectation": {
@@ -8722,28 +8722,28 @@ exports[`validator('Person', 'array').validate(
               ],
             },
             "key": "(subject)",
-            "name": "Person.2",
-            "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+            "name": "Person.person2",
+            "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
             "subject": undefined,
           },
-          "path": "2",
-          "reason": "Person.2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
+          "path": "person2",
+          "reason": "Person.person2 expected to be a string-keyed record, but it isn't. It has typeof 'undefined'.",
           "value": undefined,
         },
       ],
-      "subject": [
-        undefined,
-        undefined,
-        undefined,
-      ],
+      "subject": {
+        "person0": undefined,
+        "person1": undefined,
+        "person2": undefined,
+      },
     },
   ],
-  "salvage": [],
-  "subject": [
-    undefined,
-    undefined,
-    undefined,
-  ],
+  "salvage": {},
+  "subject": {
+    "person0": undefined,
+    "person1": undefined,
+    "person2": undefined,
+  },
   "valid": false,
 }
 `;
