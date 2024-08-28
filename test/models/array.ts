@@ -1,10 +1,10 @@
-import type { RecordWithId } from "&/models/recordWithId"
+import type { Test } from "&"
 
 export const buildTestArray = ({
   base,
   length,
 }: {
-  base: RecordWithId
+  base: Test.RecordWithId
   length: number
 }) => {
   return Array.from({ length }, (_, index) => {

@@ -2,14 +2,13 @@ import { type StructuredElements, Mirror } from "@"
 import { Test } from "&"
 import { buildTestArray } from "&/models/array"
 import { type Person, invalidPerson, validPerson } from "&/models/person"
-import type { RecordWithId } from "&/models/recordWithId"
 import { curryValidityTest } from "&/scenarios/validity"
 import type { NestedTest } from "test-nested-scenarios"
 
 type TestArgs = {
-  person0: RecordWithId | undefined
-  person1: RecordWithId | undefined
-  person2: RecordWithId | undefined
+  person0: Test.RecordWithId | undefined
+  person1: Test.RecordWithId | undefined
+  person2: Test.RecordWithId | undefined
 }
 
 type Expectation = ({
@@ -29,7 +28,7 @@ const curryRunTest = ({
     const { person0, person1, person2 } = testArgs
 
     const collection = [person0, person1, person2].reduce<
-      Record<string, RecordWithId | undefined>
+      Record<string, Test.RecordWithId | undefined>
     >((collection, person, index) => {
       if (person) {
         collection[person.id] = person
