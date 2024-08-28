@@ -1,8 +1,8 @@
-import { setupValidatorPersonCollectionTest } from "&/validators/person/collection/common"
+import { setupValidatorPersonMirrorTest } from "&/validators/person/mirror/common"
 import { testNestedScenarios } from "test-nested-scenarios"
 
-describe(`validator('Person', 'collection').isValid(\n  {`, () => {
-  const setup = setupValidatorPersonCollectionTest({
+describe(`validator('Person', 'mirror').isValid(\n  {`, () => {
+  const setup = setupValidatorPersonMirrorTest({
     expectation: ({ subject, validator }) => {
       it(`},\n  'Person'\n)`, () => {
         expect(validator.isValid(subject, `Person`)).toMatchSnapshot()

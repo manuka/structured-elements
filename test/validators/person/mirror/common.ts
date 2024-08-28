@@ -1,4 +1,4 @@
-import type { StructuredElements } from "@"
+import { type StructuredElements, Mirror } from "@"
 import { Test } from "&"
 import { buildTestArray } from "&/models/array"
 import { type Person, invalidPerson, validPerson } from "&/models/person"
@@ -17,7 +17,7 @@ type Expectation = ({
   validator,
 }: {
   subject: unknown
-  validator: StructuredElements.Validator<Person, "collection">
+  validator: StructuredElements.Validator<Person, "mirror">
 }) => void
 
 const curryRunTest = ({
@@ -28,7 +28,7 @@ const curryRunTest = ({
   return (testArgs) => {
     const { person0, person1, person2 } = testArgs
 
-    const subject = [person0, person1, person2].reduce<
+    const collection = [person0, person1, person2].reduce<
       Record<string, RecordWithId | undefined>
     >((collection, person, index) => {
       if (person) {
@@ -39,7 +39,9 @@ const curryRunTest = ({
       return collection
     }, {})
 
-    const validator = Test.Modelling.validator(`Person`, `collection`)
+    const subject = Mirror.build(collection)
+
+    const validator = Test.Modelling.validator(`Person`, `mirror`)
 
     expectation({ subject, validator })
   }
@@ -58,7 +60,7 @@ const scenarios: NestedTest.Scenario<TestArgs>[] = [0, 1, 2].map((index) => {
   })
 })
 
-export const setupValidatorPersonCollectionTest = ({
+export const setupValidatorPersonMirrorTest = ({
   expectation,
 }: {
   expectation: Expectation
