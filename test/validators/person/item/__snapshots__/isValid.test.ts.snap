@@ -683,7 +683,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: [(Valid Thing)], name: string, roleId: number, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: [(Valid Thing)], name: string, roleId: object, },
@@ -698,7 +698,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: [(Valid Thing)], name: string, roleId: undefined, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: [(Valid Thing)], name: undefined, roleId: array, },
@@ -928,7 +928,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: [], name: string, roleId: number, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: [], name: string, roleId: object, },
@@ -943,7 +943,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: [], name: string, roleId: undefined, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: [], name: undefined, roleId: array, },
@@ -1173,7 +1173,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: array, name: string, roleId: number, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: array, name: string, roleId: object, },
@@ -1188,7 +1188,7 @@ exports[`validator('Person', 'item').isValid(
 exports[`validator('Person', 'item').isValid(
   { inventory: array, name: string, roleId: undefined, },
   'Person'
-) 1`] = `true`;
+) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
   { inventory: array, name: undefined, roleId: array, },

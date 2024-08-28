@@ -19,9 +19,17 @@ export const ThingModel: Test.Model<"Thing"> = () => {
 }
 
 export const validThing: Thing = {
-  id: `1`,
-  name: `Valid Thing`,
+  id: `Valid Thing.id`,
+  name: `Valid Thing.name`,
   parts: {},
   type: `gadget`,
   weight: 1,
+}
+
+export const invalidThing = {
+  id: `Invalid Thing.id`,
+  name: `Invalid Thing.name`,
+  parts: {},
+  type: `Invalid Thing.type`,
+  weight: `Invalid Thing.weight`,
 }

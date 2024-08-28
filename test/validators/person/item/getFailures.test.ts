@@ -1,6 +1,5 @@
-import { curryTestByInputType } from "&/scenarios/inputType"
-import { curryTestByInventory } from "&/scenarios/person/inventory"
-import { curryValidatorPersonItemRunTest } from "&/validators/person/item/runTest"
+import { validatorPersonItemScenarios } from "&/validators/person/item/common"
+import { curryValidatorPersonItemRunTest } from "&/validators/person/item/common"
 import { testNestedScenarios } from "test-nested-scenarios"
 
 describe(`validator('Person', 'item').getFailures(\n  {`, () => {
@@ -8,16 +7,12 @@ describe(`validator('Person', 'item').getFailures(\n  {`, () => {
     expectedTestArgs: [`inventory`, `name`],
     optionalTestArgs: [`roleId`],
     runTest: curryValidatorPersonItemRunTest({
-      expect: ({ person, validator }) => {
+      expectation: ({ subject, validator }) => {
         it(`},\n  'Person'\n)`, () => {
-          expect(validator.getFailures(person, `Person`)).toMatchSnapshot()
+          expect(validator.getFailures(subject, `Person`)).toMatchSnapshot()
         })
       },
     }),
-    scenarios: [
-      curryTestByInventory(),
-      curryTestByInputType({ arg: `name` }),
-      curryTestByInputType({ arg: `roleId` }),
-    ],
+    scenarios: validatorPersonItemScenarios,
   })
 })

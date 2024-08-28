@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Invalid), person1: (Invalid), person2: (Invalid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Invalid), person1: (Invalid), person2: (Valid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Invalid), person1: (Valid), person2: (Invalid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Invalid), person1: (Valid), person2: (Valid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Valid), person1: (Invalid), person2: (Invalid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Valid), person1: (Invalid), person2: (Valid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Valid), person1: (Valid), person2: (Invalid), },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'array').isValid(
+  { person0: (Valid), person1: (Valid), person2: (Valid), },
+  'Person'
+) 1`] = `true`;
