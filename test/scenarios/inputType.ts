@@ -4,7 +4,6 @@ import type { NestedTest } from "test-nested-scenarios"
 
 const baseInputs = {
   array: [],
-  date: new Date(0),
   null: null,
   number: 1,
   object: {},

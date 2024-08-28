@@ -6,6 +6,7 @@ import { curryTestByInventory } from "&/scenarios/person/inventory"
 import type { NestedTest } from "test-nested-scenarios"
 
 type TestArgs = {
+  id: unknown
   inventory: unknown
   name: unknown
   roleId?: unknown
@@ -19,7 +20,7 @@ type Expectation = ({
   validator: StructuredElements.Validator<Person, "item">
 }) => void
 
-export const curryValidatorPersonItemRunTest = ({
+const curryRunTest = ({
   expectation,
 }: {
   expectation: Expectation
@@ -31,8 +32,29 @@ export const curryValidatorPersonItemRunTest = ({
   }
 }
 
-export const validatorPersonItemScenarios: NestedTest.Scenario<TestArgs>[] = [
+const expectedTestArgs = [`id`, `inventory`, `name`]
+
+const optionalTestArgs = [`roleId`]
+
+const scenarios: NestedTest.Scenario<TestArgs>[] = [
   curryTestByInventory(),
+  curryTestByInputType({
+    arg: `id`,
+    defaultInputs: { string: `string`, undefined: undefined },
+  }),
   curryTestByInputType({ arg: `name` }),
   curryTestByInputType({ arg: `roleId` }),
 ]
+
+export const setupValidatorPersonItemTest = ({
+  expectation,
+}: {
+  expectation: Expectation
+}) => {
+  return {
+    runTest: curryRunTest({ expectation }),
+    expectedTestArgs,
+    optionalTestArgs,
+    scenarios,
+  }
+}

@@ -1,2696 +1,3601 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: date, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: null, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: number, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: object, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: string, },
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: array, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: date, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: null, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: number, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: object, },
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: string, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: date, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: date, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: null, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: number, },
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: object, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: string, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: null, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: date, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: null, },
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: number, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: object, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: string, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: number, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: date, },
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: null, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: number, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: object, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: string, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: object, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: array, },
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: null, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: number, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: object, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: string, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: string, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: array, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: null, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: number, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: object, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: string, },
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Invalid Thing)], name: undefined, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: array, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: null, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: number, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: object, },
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: string, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: array, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: array, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: null, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: number, },
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: object, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: string, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: date, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: array, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: null, },
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: number, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: object, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: string, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: null, roleId: undefined, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: array, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: date, },
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: number, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: object, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: string, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing), (Invalid Thing)], name: undefined, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: array, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: date, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: null, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: number, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: object, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: object, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: string, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: string, roleId: undefined, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: array, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: date, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: null, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: number, },
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: object, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: string, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [(Valid Thing)], name: undefined, roleId: undefined, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: array, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: date, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: null, },
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: number, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: object, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: string, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: array, roleId: undefined, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: array, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: date, },
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: null, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: number, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: object, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: string, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: date, roleId: undefined, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: array, },
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: date, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: null, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: number, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: object, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: string, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: null, roleId: undefined, },
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: array, },
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: date, },
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: null, },
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: number, },
   'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: [], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `true`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `false`;
+
+exports[`validator('Person', 'item').isValid(
+  { inventory: array, id: undefined, name: string, roleId: object, },
+  'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: number, },
+  { inventory: array, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: object, },
+  { inventory: array, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: string, },
+  { inventory: array, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: number, roleId: undefined, },
+  { inventory: array, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: array, },
+  { inventory: array, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: date, },
+  { inventory: array, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: null, },
+  { inventory: array, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: number, },
+  { inventory: array, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: object, },
+  { inventory: null, id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: string, },
+  { inventory: null, id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: object, roleId: undefined, },
+  { inventory: null, id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: array, },
+  { inventory: null, id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: date, },
+  { inventory: null, id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: null, },
+  { inventory: null, id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: number, },
+  { inventory: null, id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: object, },
+  { inventory: null, id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: string, },
+  { inventory: null, id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: string, roleId: undefined, },
+  { inventory: null, id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: array, },
+  { inventory: null, id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: date, },
+  { inventory: null, id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: null, },
+  { inventory: null, id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: number, },
+  { inventory: null, id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: object, },
+  { inventory: null, id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: string, },
+  { inventory: null, id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: [], name: undefined, roleId: undefined, },
+  { inventory: null, id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: array, },
+  { inventory: null, id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: date, },
+  { inventory: null, id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: null, },
+  { inventory: null, id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: number, },
+  { inventory: null, id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: object, },
+  { inventory: null, id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: string, },
+  { inventory: null, id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: array, roleId: undefined, },
+  { inventory: null, id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: array, },
+  { inventory: null, id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: date, },
+  { inventory: null, id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: null, },
+  { inventory: null, id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: number, },
+  { inventory: null, id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: object, },
+  { inventory: null, id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: string, },
+  { inventory: null, id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: date, roleId: undefined, },
+  { inventory: null, id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: array, },
+  { inventory: null, id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: date, },
+  { inventory: null, id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: null, },
+  { inventory: null, id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: number, },
+  { inventory: null, id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: object, },
+  { inventory: null, id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: string, },
+  { inventory: null, id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: null, roleId: undefined, },
+  { inventory: null, id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: array, },
+  { inventory: null, id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: date, },
+  { inventory: null, id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: null, },
+  { inventory: null, id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: number, },
+  { inventory: null, id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: object, },
+  { inventory: null, id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: string, },
+  { inventory: null, id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: number, roleId: undefined, },
+  { inventory: null, id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: array, },
+  { inventory: null, id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: date, },
+  { inventory: null, id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: null, },
+  { inventory: null, id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: number, },
+  { inventory: null, id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: object, },
+  { inventory: null, id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: string, },
+  { inventory: null, id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: object, roleId: undefined, },
+  { inventory: null, id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: array, },
+  { inventory: null, id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: date, },
+  { inventory: null, id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: null, },
+  { inventory: null, id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: number, },
+  { inventory: null, id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: object, },
+  { inventory: null, id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: string, },
+  { inventory: null, id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: string, roleId: undefined, },
+  { inventory: null, id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: array, },
+  { inventory: null, id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: date, },
+  { inventory: null, id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: null, },
+  { inventory: null, id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: number, },
+  { inventory: null, id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: object, },
+  { inventory: null, id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: string, },
+  { inventory: null, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: array, name: undefined, roleId: undefined, },
+  { inventory: null, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: array, },
+  { inventory: null, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: date, },
+  { inventory: null, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: null, },
+  { inventory: null, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: number, },
+  { inventory: null, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: object, },
+  { inventory: null, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: string, },
+  { inventory: null, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: array, roleId: undefined, },
+  { inventory: number, id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: array, },
+  { inventory: number, id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: date, },
+  { inventory: number, id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: null, },
+  { inventory: number, id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: number, },
+  { inventory: number, id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: object, },
+  { inventory: number, id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: string, },
+  { inventory: number, id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: date, roleId: undefined, },
+  { inventory: number, id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: array, },
+  { inventory: number, id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: date, },
+  { inventory: number, id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: null, },
+  { inventory: number, id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: number, },
+  { inventory: number, id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: object, },
+  { inventory: number, id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: string, },
+  { inventory: number, id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: null, roleId: undefined, },
+  { inventory: number, id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: array, },
+  { inventory: number, id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: date, },
+  { inventory: number, id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: null, },
+  { inventory: number, id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: number, },
+  { inventory: number, id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: object, },
+  { inventory: number, id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: string, },
+  { inventory: number, id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: number, roleId: undefined, },
+  { inventory: number, id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: array, },
+  { inventory: number, id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: date, },
+  { inventory: number, id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: null, },
+  { inventory: number, id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: number, },
+  { inventory: number, id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: object, },
+  { inventory: number, id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: string, },
+  { inventory: number, id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: object, roleId: undefined, },
+  { inventory: number, id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: array, },
+  { inventory: number, id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: date, },
+  { inventory: number, id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: null, },
+  { inventory: number, id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: number, },
+  { inventory: number, id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: object, },
+  { inventory: number, id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: string, },
+  { inventory: number, id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: string, roleId: undefined, },
+  { inventory: number, id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: array, },
+  { inventory: number, id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: date, },
+  { inventory: number, id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: null, },
+  { inventory: number, id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: number, },
+  { inventory: number, id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: object, },
+  { inventory: number, id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: string, },
+  { inventory: number, id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: date, name: undefined, roleId: undefined, },
+  { inventory: number, id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: array, },
+  { inventory: number, id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: date, },
+  { inventory: number, id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: null, },
+  { inventory: number, id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: number, },
+  { inventory: number, id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: object, },
+  { inventory: number, id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: string, },
+  { inventory: number, id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: array, roleId: undefined, },
+  { inventory: number, id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: array, },
+  { inventory: number, id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: date, },
+  { inventory: number, id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: null, },
+  { inventory: number, id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: number, },
+  { inventory: number, id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: object, },
+  { inventory: number, id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: string, },
+  { inventory: number, id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: date, roleId: undefined, },
+  { inventory: number, id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: array, },
+  { inventory: number, id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: date, },
+  { inventory: number, id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: null, },
+  { inventory: number, id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: number, },
+  { inventory: number, id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: object, },
+  { inventory: number, id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: string, },
+  { inventory: number, id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: null, roleId: undefined, },
+  { inventory: number, id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: array, },
+  { inventory: number, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: date, },
+  { inventory: number, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: null, },
+  { inventory: number, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: number, },
+  { inventory: number, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: object, },
+  { inventory: number, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: string, },
+  { inventory: number, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: number, roleId: undefined, },
+  { inventory: number, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: array, },
+  { inventory: number, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: date, },
+  { inventory: object, id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: null, },
+  { inventory: object, id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: number, },
+  { inventory: object, id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: object, },
+  { inventory: object, id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: string, },
+  { inventory: object, id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: object, roleId: undefined, },
+  { inventory: object, id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: array, },
+  { inventory: object, id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: date, },
+  { inventory: object, id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: null, },
+  { inventory: object, id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: number, },
+  { inventory: object, id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: object, },
+  { inventory: object, id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: string, },
+  { inventory: object, id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: string, roleId: undefined, },
+  { inventory: object, id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: array, },
+  { inventory: object, id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: date, },
+  { inventory: object, id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: null, },
+  { inventory: object, id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: number, },
+  { inventory: object, id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: object, },
+  { inventory: object, id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: string, },
+  { inventory: object, id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: null, name: undefined, roleId: undefined, },
+  { inventory: object, id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: array, },
+  { inventory: object, id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: date, },
+  { inventory: object, id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: null, },
+  { inventory: object, id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: number, },
+  { inventory: object, id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: object, },
+  { inventory: object, id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: string, },
+  { inventory: object, id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: array, roleId: undefined, },
+  { inventory: object, id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: array, },
+  { inventory: object, id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: date, },
+  { inventory: object, id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: null, },
+  { inventory: object, id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: number, },
+  { inventory: object, id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: object, },
+  { inventory: object, id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: string, },
+  { inventory: object, id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: date, roleId: undefined, },
+  { inventory: object, id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: array, },
+  { inventory: object, id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: date, },
+  { inventory: object, id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: null, },
+  { inventory: object, id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: number, },
+  { inventory: object, id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: object, },
+  { inventory: object, id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: string, },
+  { inventory: object, id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: null, roleId: undefined, },
+  { inventory: object, id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: array, },
+  { inventory: object, id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: date, },
+  { inventory: object, id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: null, },
+  { inventory: object, id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: number, },
+  { inventory: object, id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: object, },
+  { inventory: object, id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: string, },
+  { inventory: object, id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: number, roleId: undefined, },
+  { inventory: object, id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: array, },
+  { inventory: object, id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: date, },
+  { inventory: object, id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: null, },
+  { inventory: object, id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: number, },
+  { inventory: object, id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: object, },
+  { inventory: object, id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: string, },
+  { inventory: object, id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: object, roleId: undefined, },
+  { inventory: object, id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: array, },
+  { inventory: object, id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: date, },
+  { inventory: object, id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: null, },
+  { inventory: object, id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: number, },
+  { inventory: object, id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: object, },
+  { inventory: object, id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: string, },
+  { inventory: object, id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: string, roleId: undefined, },
+  { inventory: object, id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: array, },
+  { inventory: object, id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: date, },
+  { inventory: object, id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: null, },
+  { inventory: object, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: number, },
+  { inventory: object, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: object, },
+  { inventory: object, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: string, },
+  { inventory: object, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: number, name: undefined, roleId: undefined, },
+  { inventory: object, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: array, },
+  { inventory: object, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: date, },
+  { inventory: object, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: null, },
+  { inventory: object, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: number, },
+  { inventory: string, id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: object, },
+  { inventory: string, id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: string, },
+  { inventory: string, id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: array, roleId: undefined, },
+  { inventory: string, id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: array, },
+  { inventory: string, id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: date, },
+  { inventory: string, id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: null, },
+  { inventory: string, id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: number, },
+  { inventory: string, id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: object, },
+  { inventory: string, id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: string, },
+  { inventory: string, id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: date, roleId: undefined, },
+  { inventory: string, id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: array, },
+  { inventory: string, id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: date, },
+  { inventory: string, id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: null, },
+  { inventory: string, id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: number, },
+  { inventory: string, id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: object, },
+  { inventory: string, id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: string, },
+  { inventory: string, id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: null, roleId: undefined, },
+  { inventory: string, id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: array, },
+  { inventory: string, id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: date, },
+  { inventory: string, id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: null, },
+  { inventory: string, id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: number, },
+  { inventory: string, id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: object, },
+  { inventory: string, id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: string, },
+  { inventory: string, id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: number, roleId: undefined, },
+  { inventory: string, id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: array, },
+  { inventory: string, id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: date, },
+  { inventory: string, id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: null, },
+  { inventory: string, id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: number, },
+  { inventory: string, id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: object, },
+  { inventory: string, id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: string, },
+  { inventory: string, id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: object, roleId: undefined, },
+  { inventory: string, id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: array, },
+  { inventory: string, id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: date, },
+  { inventory: string, id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: null, },
+  { inventory: string, id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: number, },
+  { inventory: string, id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: object, },
+  { inventory: string, id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: string, },
+  { inventory: string, id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: string, roleId: undefined, },
+  { inventory: string, id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: array, },
+  { inventory: string, id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: date, },
+  { inventory: string, id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: null, },
+  { inventory: string, id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: number, },
+  { inventory: string, id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: object, },
+  { inventory: string, id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: string, },
+  { inventory: string, id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: object, name: undefined, roleId: undefined, },
+  { inventory: string, id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: array, },
+  { inventory: string, id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: date, },
+  { inventory: string, id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: null, },
+  { inventory: string, id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: number, },
+  { inventory: string, id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: object, },
+  { inventory: string, id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: string, },
+  { inventory: string, id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: array, roleId: undefined, },
+  { inventory: string, id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: array, },
+  { inventory: string, id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: date, },
+  { inventory: string, id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: null, },
+  { inventory: string, id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: number, },
+  { inventory: string, id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: object, },
+  { inventory: string, id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: string, },
+  { inventory: string, id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: date, roleId: undefined, },
+  { inventory: string, id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: array, },
+  { inventory: string, id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: date, },
+  { inventory: string, id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: null, },
+  { inventory: string, id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: number, },
+  { inventory: string, id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: object, },
+  { inventory: string, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: string, },
+  { inventory: string, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: null, roleId: undefined, },
+  { inventory: string, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: array, },
+  { inventory: string, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: date, },
+  { inventory: string, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: null, },
+  { inventory: string, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: number, },
+  { inventory: string, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: object, },
+  { inventory: string, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: string, },
+  { inventory: undefined, id: string, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: number, roleId: undefined, },
+  { inventory: undefined, id: string, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: array, },
+  { inventory: undefined, id: string, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: date, },
+  { inventory: undefined, id: string, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: null, },
+  { inventory: undefined, id: string, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: number, },
+  { inventory: undefined, id: string, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: object, },
+  { inventory: undefined, id: string, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: string, },
+  { inventory: undefined, id: string, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: object, roleId: undefined, },
+  { inventory: undefined, id: string, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: array, },
+  { inventory: undefined, id: string, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: date, },
+  { inventory: undefined, id: string, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: null, },
+  { inventory: undefined, id: string, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: number, },
+  { inventory: undefined, id: string, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: object, },
+  { inventory: undefined, id: string, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: string, },
+  { inventory: undefined, id: string, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: string, roleId: undefined, },
+  { inventory: undefined, id: string, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: array, },
+  { inventory: undefined, id: string, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: date, },
+  { inventory: undefined, id: string, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: null, },
+  { inventory: undefined, id: string, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: number, },
+  { inventory: undefined, id: string, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: object, },
+  { inventory: undefined, id: string, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: string, },
+  { inventory: undefined, id: string, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: string, name: undefined, roleId: undefined, },
+  { inventory: undefined, id: string, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: array, },
+  { inventory: undefined, id: string, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: date, },
+  { inventory: undefined, id: string, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: null, },
+  { inventory: undefined, id: string, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: number, },
+  { inventory: undefined, id: string, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: object, },
+  { inventory: undefined, id: string, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: string, },
+  { inventory: undefined, id: string, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: array, roleId: undefined, },
+  { inventory: undefined, id: string, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: array, },
+  { inventory: undefined, id: string, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: date, },
+  { inventory: undefined, id: string, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: null, },
+  { inventory: undefined, id: string, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: number, },
+  { inventory: undefined, id: string, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: object, },
+  { inventory: undefined, id: string, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: string, },
+  { inventory: undefined, id: string, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: date, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: array, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: array, },
+  { inventory: undefined, id: undefined, name: array, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: date, },
+  { inventory: undefined, id: undefined, name: array, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: null, },
+  { inventory: undefined, id: undefined, name: array, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: number, },
+  { inventory: undefined, id: undefined, name: array, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: object, },
+  { inventory: undefined, id: undefined, name: array, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: string, },
+  { inventory: undefined, id: undefined, name: null, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: null, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: null, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: array, },
+  { inventory: undefined, id: undefined, name: null, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: date, },
+  { inventory: undefined, id: undefined, name: null, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: null, },
+  { inventory: undefined, id: undefined, name: null, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: number, },
+  { inventory: undefined, id: undefined, name: null, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: object, },
+  { inventory: undefined, id: undefined, name: number, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: string, },
+  { inventory: undefined, id: undefined, name: number, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: number, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: number, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: array, },
+  { inventory: undefined, id: undefined, name: number, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: date, },
+  { inventory: undefined, id: undefined, name: number, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: null, },
+  { inventory: undefined, id: undefined, name: number, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: number, },
+  { inventory: undefined, id: undefined, name: object, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: object, },
+  { inventory: undefined, id: undefined, name: object, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: string, },
+  { inventory: undefined, id: undefined, name: object, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: object, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: object, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: array, },
+  { inventory: undefined, id: undefined, name: object, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: date, },
+  { inventory: undefined, id: undefined, name: object, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: null, },
+  { inventory: undefined, id: undefined, name: string, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: number, },
+  { inventory: undefined, id: undefined, name: string, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: object, },
+  { inventory: undefined, id: undefined, name: string, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: string, },
+  { inventory: undefined, id: undefined, name: string, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: string, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: string, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: array, },
+  { inventory: undefined, id: undefined, name: string, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: date, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: array, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: null, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: null, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: number, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: number, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: object, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: object, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: string, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: string, },
   'Person'
 ) 1`] = `false`;
 
 exports[`validator('Person', 'item').isValid(
-  { inventory: undefined, name: undefined, roleId: undefined, },
+  { inventory: undefined, id: undefined, name: undefined, roleId: undefined, },
   'Person'
 ) 1`] = `false`;
