@@ -10,12 +10,14 @@ On top of that, validation introduces a long-term maintenance overhead. Type def
 
 Structured Elements is designed to solve these problems. It will allow you to:
 
-- Model your data using definitions that are very similar to TypeScript type definitions. In fact, they're so similar that GitHub Co-Pilot can often write them for you.
-- Use dynamic references to compose models from other models as needed, so that you don't have to repeat a given pattern.
+- Model your data using definitions that are very similar to TypeScript type definitions. In fact, they're so similar that GitHub Copilot can often write them for you.
+- Use dynamic references to compose models from other models as needed, so that you can define each data structure exactly once.
 - Validate runtime data against your models to prevent runtime errors from unexpected values.
-- Validate data as individual items, arrays, record collections, and mirrors using the same core model defintion.
+- Use the same core model defintion to validate data as individual items, arrays, key/value collections, and mirrors.
+- Express collections of data as mirrors, allowing you to interact with it as an array or key/value object as needed.
 - Automatically salvage collections of data that have a mixture of valid and invalid elements.
 - Automatically cache models and validation results so that your application is nice and fast.
+- Access validation results so that you can understand why a given record is invalid in exacting detail.
 
 The overall goal of Structured Elements is to make your runtime data as type-safe as possible so that you can trust it. When applied well, this can eliminate what is arguably the most common source of errors and other bugs.
 
