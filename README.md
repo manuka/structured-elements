@@ -101,12 +101,14 @@ import { Modelling, type Model } from "@/lib/models"
 import type { Thing } from "@lib/thing"
 
 export type Person = {
+  id: string
   inventory: Thing[]
   name: string
   roleId?: number
 }
 
 export const PersonModel: Model<"Person"> = {
+  id: "string",
   inventory: Modelling.reference("array", "Thing"),
   name: "string",
   roleId: ["number", undefined],
@@ -185,6 +187,45 @@ Each element in the mirror is of the same type. The array and collection contain
 Mirrors are a useful way to express readonly data because we can interact with it as either an array or an object as needed.
 
 Structured Elements exports the Mirror type directly so that you can use it throughout your application.
+
+We can build a Mirror using the `Mirror.build` function. It accepts two arguments: `data` and `options`.
+
+The `data` argument is the data that you want to store in the mirror. You can pass in either an array or a collection.
+
+If you pass the data in as an array, you will need to pass an `extractKey` function as part of the options unless every item in the array has a string `id` field.
+
+You can use the `options` argument to tweak the following aspects of the Mirror creation process:
+
+#### Base
+
+Key: `'base'`
+Type: `Mirror<Element>`
+
+By supplying this argument, you can build a mirror that has every element in the base mirror in addition to what you pass in as the `data`. This can be useful when you need to create a new version of a mirror with added or updated data, since each mirror is read only by nature.
+
+If the base mirror and new data contain any of the same keys, the new mirror will source those elements from the data. It will not attempt to merge the individual elements in any way.
+
+#### Extract Key
+
+Key: `'extractKey'`
+Type: `(record: Element) => Key`
+
+When you build a new mirror from data in an array, the process needs to know what the collection will use as keys. By default, the key of each collection element will be the `id` of the element.
+
+If your data's individual elements do not have an `id` field of type `string`, this option becomes mandatory.
+
+#### Sort
+
+Key: `'sort'`
+Type: `(a: Element, b: Element) => number`
+
+By default, the `array` and `collection` in a new mirror will be in the same order as the data you build it from.
+
+This default sort order is not guaranteed if you also supply a base mirror to the `base` option. In that case, the new mirror will most likely contain all of the elements from the base mirror and then any new ones afterward.
+
+When you need the data to be ordered in a specific way, you can pass a sort function. This behaves just like a compare function that you would pass when you call `.sort` on the data as an array, since it uses that same function under the hood.
+
+Please note that this option slows the performance of the build process by a modest amount, although this is only noticeable with significantly large data sets.
 
 ## Expectations
 
