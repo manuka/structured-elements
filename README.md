@@ -26,8 +26,8 @@ An example API file:
 */
 
 /*
-  We recommend that you keep your types and their models in other files throughout your application.
-  You'll need to import them here so that you can add them to the registry.
+  We recommend that you keep your types and their models in other files throughout your
+  application. You'll need to import them here so that you can add them to the registry.
 */
 import { type Person, PersonModel } from "@/lib/person"
 import { type Thing, ThingModel } from "@/lib/thing"
@@ -36,10 +36,11 @@ import { type Thing, ThingModel } from "@/lib/thing"
   The Registry type lists all of the types that you want the library to know about.
   This allows Structured Elements to reason about your data using TypeScript.
 
-    Key: A unique ModelId string that you'll pass into various calls to reference the model.
+    Key: A unique ModelId string that you'll use to reference the model.
     Value: The TypeScript type that the model corresponds to.
 
-  List every type that you want to be able to validate data against. Person and Thing are just examples.
+  List every type that you want to be able to validate data against.
+  Person and Thing are just examples.
 */
 export type Registry = {
   Person: Person
@@ -57,7 +58,7 @@ export type Model<ModelId extends keyof Registry> =
   This is the API object that allows your application to use Structured Elements.
   You can call it whatever you like. Modelling is just an example.
 
-  The debugEnabled function lets you tell the package whether or not to output debug information.
+  The debugEnabled function lets you tell the package whether or not to log to the console.
 
   The models function returns a collection of all of your models as runtime data.
   This allows Structured Elements to validate your data against them.
@@ -65,7 +66,8 @@ export type Model<ModelId extends keyof Registry> =
     Key: A unique ModelId that matches the one in your Registry type.
     Value: The Model definition that will be used to validate your runtime data.
 
-  You must list a model for every type in your application's Registry. Person and Thing are just examples.
+  You must list a model for every type in your application's Registry.
+  Person and Thing are just examples.
 */
 export const Modelling = StructuredElements.setup<Registry>({
   debugEnabled: () => {
@@ -368,12 +370,14 @@ export type Plant = {
 export const PlantModel: Model<'Plant'> = () => {
   return {
     // We can represent the Record<string, string> type as a collection of strings.
-    // Since this field is optional, we also need to expect that it could be undefined. Note that we supply undefined as a value, not a string.
+    // Since this field is optional, we also need to expect that it could be undefined.
+    // Note that we supply undefined as a value, not a string.
     flowerColours: [Modelling.reference('collection', 'string'), undefined],
     // Height can only be a number, so we don't need to use an array for this field.
     height: 'number',
     // This field has three possible types, so we supply an array of expectations.
-    // While the field isn't optional, it's allowed to be null. Note that we supply null as a value, not a string.
+    // While the field isn't optional, it's allowed to be null.
+    // Note that we supply null as a value, not a string.
     preferredEnvironment: ['HydroponicFluid', 'Soil', null],
   }
 }
@@ -406,7 +410,7 @@ Next, we'll need some code that makes a network call to our imaginary API and re
 import type { Person } from '@lib/person'
 
 export type PersonAPIFetchOptions = {
-  // Let's just use a stand-in 'options' variable for whatever other information our API wants as part of the call
+  // This is a stand-in for whatever options we might want to pass to the API call.
 }
 
 export type PersonFetchResponse = {
@@ -422,7 +426,7 @@ export const fetchPeopleFromAPI = async (options: PersonAPIFetchOptions): Promis
     const response = await fetch('/my_server_api/person', options)
     return response
   } catch(error) {
-    // You could do all sorts of things here but let's pretend we give up and return an empty response
+    // You could do all sorts of things here but let's just return an empty response.
     return {
       data: []
       metadata: {
@@ -464,8 +468,8 @@ export const fetchPeopleMirror = async (options: PersonAPIFetchOptions): Mirror<
     return validationRsult.salvage
   }
 
-  // In theory we won't reach this part of the code, since the Mirror validator is very
-  // robust at salvaging broken data. That isn't true of every Validator though,
+  // In theory we won't reach this part of the code, since the Mirror validator
+  // is robust at salvaging broken data. That isn't true of every Validator,
   // so TypeScript will insist that we handle the potentially undefined result.
   return Mirror.build()
 }
