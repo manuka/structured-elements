@@ -499,7 +499,7 @@ export const fetchPeopleMirror = async (options: PersonAPIFetchOptions): Mirror<
   const validationResult = validator.validate(response.data, 'PeopleFetchResponse')
 
   // If all of the Person items are valid, we can just return the subject.
-  if(validationResult.valid) {
+  if (validationResult.valid) {
     return validationResult.subject
   }
 
@@ -507,7 +507,7 @@ export const fetchPeopleMirror = async (options: PersonAPIFetchOptions): Mirror<
   // by discarding any invalid items from both the array and the collection.
   // This means that we can still display and work with the valid results
   // and trust that we won't have invalid data that might break our application.
-  if(validationResult.salvage) {
+  if (validationResult.salvage) {
     return validationRsult.salvage
   }
 
