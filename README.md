@@ -421,7 +421,9 @@ export type PersonFetchResponse = {
   }
 }
 
-export const fetchPeopleFromAPI = async (options: PersonAPIFetchOptions): Promise<PersonFetchResponse> => {
+export const fetchPeopleFromAPI = async (
+  options: PersonAPIFetchOptions
+): Promise<PersonFetchResponse> => {
   try {
     const response = await fetch('/my_server_api/person', options)
     return response
