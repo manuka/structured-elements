@@ -71,7 +71,7 @@ export type Model<ModelId extends keyof Registry> =
 */
 export const Modelling = StructuredElements.setup<Registry>({
   debugEnabled: () => {
-    return process.env.NODE_ENV === `development`
+    return process.env.NODE_ENV === "development"
   },
   models: () => {
     return {
@@ -151,21 +151,21 @@ Structured Elements supports the following data structures by default:
 
 ### Item
 
-Key: `'item'`
+Key: `"item"`
 Type: `Element`
 
 A single object where the keys are known in advance, usually because it represents a single record in the system.
 
 ### Array
 
-Key: `'array'`
+Key: `"array"`
 Type: `Element[]`
 
 A sequential list of elements, each of the same type.
 
 ### Collection
 
-Key: `'collection'`
+Key: `"collection"`
 Type: `Record<string, Element>`
 
 An object where the keys are strings and not known in advance, usually because they are IDs or other dynamic data.
@@ -174,13 +174,13 @@ Each value in the collection is an element of the same type.
 
 ### Mirror
 
-Key: `'mirror'`
+Key: `"mirror"`
 Type: `Mirror<Element>`
 
-An object with two keys: 'array' and 'collection'.
+An object with two keys: "array" and "collection".
 
-The 'array' key has a readonly array of elements.
-The 'collection' key has a readonly collection of elements.
+The "array" key has a readonly array of elements.
+The "collection" key has a readonly collection of elements.
 
 Each element in the mirror is of the same type. The array and collection contain the same elements, in the same order.
 
@@ -198,7 +198,7 @@ You can use the `options` argument to tweak the following aspects of the Mirror 
 
 #### Base
 
-Key: `'base'`
+Key: `"base"`
 Type: `Mirror<Element>`
 
 By supplying this argument, you can build a mirror that has every element in the base mirror in addition to what you pass in as the `data`. This can be useful when you need to create a new version of a mirror with added or updated data, since each mirror is read only by nature.
@@ -207,7 +207,7 @@ If the base mirror and new data contain any of the same keys, the new mirror wil
 
 #### Extract Key
 
-Key: `'extractKey'`
+Key: `"extractKey"`
 Type: `(record: Element) => Key`
 
 When you build a new mirror from data in an array, the process needs to know what the collection will use as keys. By default, the key of each collection element will be the `id` of the element.
@@ -216,7 +216,7 @@ If your data's individual elements do not have an `id` field of type `string`, t
 
 #### Sort
 
-Key: `'sort'`
+Key: `"sort"`
 Type: `(a: Element, b: Element) => number`
 
 By default, the `array` and `collection` in a new mirror will be in the same order as the data you build it from.
@@ -235,7 +235,7 @@ An expectation can be one of the following things:
 
 ### ModelId
 
-A ModelId from the registry, represented as a string. For example, `'Person'` or `'Thing'`.
+A ModelId from the registry, represented as a string. For example, `"Person"` or `"Thing"`.
 
 ### ReferenceContainer
 
@@ -248,7 +248,7 @@ An inline object that is effectively a single-use model definition that we don't
 These are commonly used to specify nested fields as part of an overall model definition. For example:
 
 ```typescript
-import { type Model } from '@lib/models`
+import { type Model } from "@lib/models"
 
 export type Fridge = {
   colours: {
@@ -269,33 +269,33 @@ export type Fridge = {
   price: number
 }
 
-export const FridgeModel: Model<'Fridge'> = () => {
+export const FridgeModel: Model<"Fridge"> = () => {
   return {
     colours: {
-      chassis: 'string',
+      chassis: "string",
       doors: {
-        bottom: 'string',
-        middle: ['string', undefined],
-        top: 'string',
+        bottom: "string",
+        middle: ["string", undefined],
+        top: "string",
       },
     },
     dimensions: {
-      depth: 'number',
-      height: 'number',
-      width: 'number',
+      depth: "number",
+      height: "number",
+      width: "number",
     },
-    id: 'string'
-    name: 'string'
-    price: 'number'
+    id: "string"
+    name: "string"
+    price: "number"
   }
 }
 ```
 
 ### Primitive
 
-A primitive type expectation, represented as a string. The supported values are `'string'`, `'number'`, `'boolean'`, and `'date'`.
+A primitive type expectation, represented as a string. The supported values are `"string"`, `"number"`, `"boolean"`, and `"date"`.
 
-If we specify a `'date'`, it will be validated by checking that it's an instance of `Date` and has a valid numeric value for `getTime()`.
+If we specify a `"date"`, it will be validated by checking that it's an instance of `Date` and has a valid numeric value for `getTime()`.
 
 Other primitive values are validated by calling `typeof` on the subject.
 
@@ -362,14 +362,14 @@ export const ContrivedExampleModel: Model<"ContrivedExample"> = () => {
 There are times when we want our data to match either a specific value, or one of a few specific values. We can do this using the `equality` function from our API object:
 
 ```typescript
-import { Modelling, type Model } from '@lib/models`
+import { Modelling, type Model } from "@lib/models"
 
 export type Thing = {
   // other fields hidden for this example
   type: "gadget" | "widget"
 }
 
-export const ThingModel: Model<'Thing'> = () => {
+export const ThingModel: Model<"Thing"> = () => {
   return {
     // other fields hidden for this example
     type: Modelling.equality("item", ["gadget" | "widget"]),
@@ -379,7 +379,7 @@ export const ThingModel: Model<'Thing'> = () => {
 
 This `equality` function takes the same two sequential arguments as the `reference` function: `structure` and `expectation`.
 
-The `structure` argument must be one of the supportd structure options: `'item'`, `'array'`, `'collection'`, or `'mirror'`.
+The `structure` argument must be one of the supportd structure options: `"item"`, `"array"`, `"collection"`, or `"mirror"`.
 
 The `expectation` argument can be an allowed value or an array of allowed values. It will pass validation as long as the subject is equal to at least one of the allowed values, when compared using the `===` operator.
 
@@ -398,9 +398,9 @@ We represent this by supplying an inline array of expectations. The data will be
 Here's an example Plant model that uses arrays to specify some of its values:
 
 ```typescript
-import { Modelling, type Model } from '@lib/models'
-import { type HydroponicFluid } from '@lib/hydroponicFluid`
-import { type Soil } from '@lib/soil`
+import { Modelling, type Model } from "@lib/models"
+import { type HydroponicFluid } from "@lib/hydroponicFluid"
+import { type Soil } from "@lib/soil"
 
 export type Plant = {
   flowerColours?: Record<string, string>
@@ -408,18 +408,18 @@ export type Plant = {
   preferredEnvironment: HydroponicFluid | Soil | null
 }
 
-export const PlantModel: Model<'Plant'> = () => {
+export const PlantModel: Model<"Plant"> = () => {
   return {
     // We can represent the Record<string, string> type as a collection of strings.
     // Since this field is optional, we also need to expect that it could be undefined.
     // Note that we supply undefined as a value, not a string.
-    flowerColours: [Modelling.reference('collection', 'string'), undefined],
+    flowerColours: [Modelling.reference("collection", "string"), undefined],
     // Height can only be a number, so we don't need to use an array for this field.
-    height: 'number',
+    height: "number",
     // This field has three possible types, so we supply an array of expectations.
     // While the field isn't optional, it's allowed to be null.
     // Note that we supply null as a value, not a string.
-    preferredEnvironment: ['HydroponicFluid', 'Soil', null],
+    preferredEnvironment: ["HydroponicFluid", "Soil", null],
   }
 }
 ```
@@ -432,7 +432,7 @@ We represent this concept in our models using references. Under the hood, these 
 
 You can add a reference to a model definition by calling the `reference` function on your API object. The function takes two sequential arguments: `structure` and `target`.
 
-The `structure` argument must be one of the available structure options: `'item'`, `'array'`, `'collection'`, or `'mirror'`.
+The `structure` argument must be one of the available structure options: `"item"`, `"array"`, `"collection"`, or `"mirror"`.
 
 The `target` argument can be either a ModelId from the registry or an inline expectation.
 
@@ -448,7 +448,7 @@ Next, we'll need some code that makes a network call to our imaginary API and re
 
 ```typescript
 // lib/person/api/fetch.ts
-import type { Person } from '@lib/person'
+import type { Person } from "@lib/person"
 
 export type PersonAPIFetchOptions = {
   // This is a stand-in for whatever options we might want to pass to the API call.
@@ -466,7 +466,7 @@ export const fetchPeopleFromAPI = async (
   options: PersonAPIFetchOptions
 ): Promise<PersonFetchResponse> => {
   try {
-    const response = await fetch('/my_server_api/person', options)
+    const response = await fetch("/my_server_api/person", options)
     return response
   } catch(error) {
     // You could do all sorts of things here but let's just return an empty response.
@@ -485,18 +485,26 @@ Now we'll define another function that we can call to get a validated mirror of 
 ```typescript
 // lib/person/fetchMirror.ts
 
-import { Mirror } from 'structured-elements'
-import { Modelling } from '@lib/models`
-import { fetchPeopleFromAPI, type PersonAPIFetchOptions } from '@lib/person/api/fetch'
+import { Mirror } from "structured-elements"
+import { Modelling } from "@lib/models"
+import {
+  fetchPeopleFromAPI,
+  type PersonAPIFetchOptions,
+} from "@lib/person/api/fetch"
 
-export const fetchPeopleMirror = async (options: PersonAPIFetchOptions): Mirror<Person> => {
+export const fetchPeopleMirror = async (
+  options: PersonAPIFetchOptions,
+): Mirror<Person> => {
   const response = await fetchPeopleFromAPI(options)
 
   const people = Mirror.build(people)
 
-  const validator = Modelling.validator('Person', 'mirror')
+  const validator = Modelling.validator("Person", "mirror")
 
-  const validationResult = validator.validate(response.data, 'PeopleFetchResponse')
+  const validationResult = validator.validate(
+    response.data,
+    "PeopleFetchResponse",
+  )
 
   // If all of the Person items are valid, we can just return the subject.
   if (validationResult.valid) {
