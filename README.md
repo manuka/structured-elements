@@ -452,7 +452,7 @@ export const PlantModel: Model<"Plant"> = () => {
 
 ## References
 
-Data is often nested or inter-related in some way. TypeScript supports this by allowing us to use our types inside other type definitions, such as by having a Person contain an inventory of Thing records.
+Data is often nested or interrelated in some way. TypeScript supports this by allowing us to use our types inside other type definitions, such as by having a Person contain an inventory of Thing records.
 
 We represent this concept in our models using references. Under the hood, these are special `ReferenceContainer` objects recognised by Structured Elements using a reserved `_StructuredElementsReference` key and some metadata.
 
