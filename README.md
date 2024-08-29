@@ -1,6 +1,23 @@
 # Structured Elements
 
-This is a TypeScript package for modelling and validating data.
+TypeScript is an excellent improvement over JavaScript, but its type safety doesn't apply to your runtime code. Since most applications source their data from external sources, we can't just assume that runtime data matches our types.
+
+Validating data by hand usually requires a whole lot of type guard functions that laboriously check each field on a given record. Since that process can be a major pain and consume a lot of development time, it's often skipped.
+
+Even if we do validate our individual records, we need to consider collections. If an application displays a list of records and some of them are invalid, we probably still want to display the valid ones. Otherwise, we'd be forced to either render a blank list or risk breaking the whole view.
+
+On top of that, validation introduces a long-term maintenance overhead. Type definitions change over the lifetime of an application, and having to update or replace the corresponding validation logic can be a real burden.
+
+Structured Elements is designed to solve these problems. It will allow you to:
+
+- Model your data using definitions that are very similar to TypeScript type definitions. In fact, they're so similar that GitHub Co-Pilot can often write them for you.
+- Use dynamic references to compose models from other models as needed, so that you don't have to repeat a given pattern.
+- Validate runtime data against your models to prevent runtime errors from unexpected values.
+- Validate data as individual items, arrays, record collections, and mirrors using the same core model defintion.
+- Automatically salvage collections of data that have a mixture of valid and invalid elements.
+- Automatically cache models and validation results so that your application is nice and fast.
+
+The overall goal of Structured Elements is to make your runtime data as type-safe as possible so that you can trust it. When applied well, this can eliminate what is arguably the most common source of errors and other bugs.
 
 ## Installation
 
