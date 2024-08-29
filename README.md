@@ -152,6 +152,7 @@ Structured Elements supports the following data structures by default:
 ### Item
 
 Key: `"item"`
+
 Type: `Element`
 
 A single object where the keys are known in advance, usually because it represents a single record in the system.
@@ -159,6 +160,7 @@ A single object where the keys are known in advance, usually because it represen
 ### Array
 
 Key: `"array"`
+
 Type: `Element[]`
 
 A sequential list of elements, each of the same type.
@@ -166,6 +168,7 @@ A sequential list of elements, each of the same type.
 ### Collection
 
 Key: `"collection"`
+
 Type: `Record<string, Element>`
 
 An object where the keys are strings and not known in advance, usually because they are IDs or other dynamic data.
@@ -175,6 +178,7 @@ Each value in the collection is an element of the same type.
 ### Mirror
 
 Key: `"mirror"`
+
 Type: `Mirror<Element>`
 
 An object with two keys: "array" and "collection".
@@ -199,6 +203,7 @@ You can use the `options` argument to tweak the following aspects of the Mirror 
 #### Base
 
 Key: `"base"`
+
 Type: `Mirror<Element>`
 
 By supplying this argument, you can build a mirror that has every element in the base mirror in addition to what you pass in as the `data`. This can be useful when you need to create a new version of a mirror with added or updated data, since each mirror is read only by nature.
@@ -208,6 +213,7 @@ If the base mirror and new data contain any of the same keys, the new mirror wil
 #### Extract Key
 
 Key: `"extractKey"`
+
 Type: `(record: Element) => Key`
 
 When you build a new mirror from data in an array, the process needs to know what the collection will use as keys. By default, the key of each collection element will be the `id` of the element.
@@ -217,6 +223,7 @@ If your data's individual elements do not have an `id` field of type `string`, t
 #### Sort
 
 Key: `"sort"`
+
 Type: `(a: Element, b: Element) => number`
 
 By default, the `array` and `collection` in a new mirror will be in the same order as the data you build it from.
