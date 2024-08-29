@@ -487,7 +487,7 @@ Now we'll define another function that we can call to get a validated mirror of 
 
 import { Mirror } from 'structured-elements'
 import { Modelling } from '@lib/models`
-import { fetchPeopleFromAPI, type PersonAPIFetchOptions } from '@lib/person/api/fetch`
+import { fetchPeopleFromAPI, type PersonAPIFetchOptions } from '@lib/person/api/fetch'
 
 export const fetchPeopleMirror = async (options: PersonAPIFetchOptions): Mirror<Person> => {
   const response = await fetchPeopleFromAPI(options)
