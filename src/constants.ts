@@ -1,6 +1,6 @@
 import type { StructuredElements } from "@"
 
-export const referenceToken: StructuredElements.ReferenceToken = `_StructuredElementReference`
+export const referenceToken: StructuredElements.ReferenceToken = `_StructuredElementsReference`
 
 export const structureOptions: StructuredElements.StructureOption[] = [
   `array`,

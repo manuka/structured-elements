@@ -412,7 +412,7 @@ export namespace StructuredElements {
     ? keyof Registry
     : Expectation<Registry, Subject>
 
-  export type ReferenceToken = `_StructuredElementReference`
+  export type ReferenceToken = `_StructuredElementsReference`
 
   // The result of validating a subject against an expectation
   // We cache this per expectation and per subject
