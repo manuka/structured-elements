@@ -255,7 +255,7 @@ Please note that this option slows the performance of the build process by a mod
 
 ## Expectations
 
-In order to validate our data, Structured Elements needs to know how what we expect that data to be. We achieve this by building models full of expectations.
+In order to validate our data, Structured Elements needs to know what we expect that data to be. We achieve this by supplying expectations. When we register a model, that model forms an expectation for the build that model out of expectations.
 
 An expectation can be one of the following things:
 
@@ -269,9 +269,11 @@ A special object that we create using the `references` method on our API. See th
 
 ### RecordSchema
 
-An inline object that is effectively a single-use model definition that we don't have to add to the registry. These have the same format as our model definitions, except that we don't wrap them in a function.
+An inline object that is effectively a single-use model definition that we don't have to add to the registry. These have the same format as our model definitions, except that we don't need to wrap them in a function.
 
-These are commonly used to specify nested fields as part of an overall model definition. For example:
+When it boils down to it, models are basically functions that return record schemas. We wrap them in functions to prevent define-time reference errors, then we add them to the registry with a ModelId so that we can reuse them.
+
+Record schemas are commonly used to specify nested fields as part of an overall model definition, since it would be too annoying and indirect to define a model for every single object in our data. For example:
 
 ```typescript
 import { type Model } from "@lib/models"
@@ -297,15 +299,15 @@ export type Fridge = {
 
 export const FridgeModel: Model<"Fridge"> = () => {
   return {
-    colours: {
+    colours: { // This is a RecordSchema expectation.
       chassis: "string",
-      doors: {
+      doors: { // So is this. As you can see, we can nest them.
         bottom: "string",
         middle: ["string", undefined],
         top: "string",
       },
     },
-    dimensions: {
+    dimensions: { // Here's another one!
       depth: "number",
       height: "number",
       width: "number",
