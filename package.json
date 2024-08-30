@@ -36,7 +36,7 @@
     "typescript",
     "validation"
   ],
-  "license": "TBC",
+  "license": "LGPLv3",
   "main": "dist/index.js",
   "name": "structured-elements",
   "repository": {
