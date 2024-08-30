@@ -3,6 +3,7 @@
     "alwaysStrict": true,
     "baseUrl": ".",
     "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "module": "commonjs",
     "noErrorTruncation": true,
@@ -13,6 +14,7 @@
       "&": ["test/index"],
       "&/*": ["test/*"]
     },
+    "sourceMap": true,
     "strict": true,
     "target": "ES2019"
   },

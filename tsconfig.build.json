@@ -3,14 +3,16 @@
     "alwaysStrict": true,
     "baseUrl": ".",
     "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "module": "commonjs",
     "noErrorTruncation": true,
     "outDir": "./dist",
     "paths": {
       "@": ["src/index"],
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
     },
+    "sourceMap": true,
     "strict": true,
     "target": "ES2019"
   },
