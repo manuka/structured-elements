@@ -18,13 +18,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -38,7 +38,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -58,7 +58,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -127,13 +127,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -160,13 +160,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -202,13 +202,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -276,13 +276,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -296,7 +296,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -316,7 +316,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -385,13 +385,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -418,13 +418,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -460,13 +460,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -534,13 +534,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -554,7 +554,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -574,7 +574,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -643,13 +643,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -676,13 +676,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -718,13 +718,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -827,13 +827,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -847,7 +847,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -867,7 +867,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -936,13 +936,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -969,13 +969,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1011,13 +1011,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1085,13 +1085,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1105,7 +1105,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1125,7 +1125,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -1194,13 +1194,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1227,13 +1227,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1269,13 +1269,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1386,13 +1386,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1406,7 +1406,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1426,7 +1426,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -1495,13 +1495,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1528,13 +1528,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1570,13 +1570,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1638,13 +1638,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1658,7 +1658,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1678,7 +1678,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -1747,13 +1747,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1780,13 +1780,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1822,13 +1822,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1884,13 +1884,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1907,13 +1907,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1937,13 +1937,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1959,13 +1959,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -2044,13 +2044,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2064,7 +2064,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2084,7 +2084,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -2153,13 +2153,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2186,13 +2186,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2228,13 +2228,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2302,13 +2302,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2322,7 +2322,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2342,7 +2342,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -2411,13 +2411,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2444,13 +2444,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2486,13 +2486,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2603,13 +2603,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2623,7 +2623,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2643,7 +2643,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -2712,13 +2712,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2745,13 +2745,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2787,13 +2787,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2911,13 +2911,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2931,7 +2931,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2951,7 +2951,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -3020,13 +3020,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3053,13 +3053,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3095,13 +3095,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3157,13 +3157,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3180,13 +3180,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3210,13 +3210,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3232,13 +3232,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -3325,13 +3325,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3345,7 +3345,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3365,7 +3365,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -3434,13 +3434,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3467,13 +3467,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3509,13 +3509,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3571,13 +3571,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3594,13 +3594,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3624,13 +3624,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3646,13 +3646,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -3702,13 +3702,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3722,7 +3722,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3742,7 +3742,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -3811,13 +3811,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3844,13 +3844,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3886,13 +3886,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3983,13 +3983,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4003,7 +4003,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4023,7 +4023,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -4092,13 +4092,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4125,13 +4125,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4167,13 +4167,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4229,13 +4229,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4252,13 +4252,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4282,13 +4282,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4304,13 +4304,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -4397,13 +4397,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4417,7 +4417,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4437,7 +4437,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -4506,13 +4506,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4539,13 +4539,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4581,13 +4581,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4637,13 +4637,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4660,13 +4660,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4690,13 +4690,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4712,13 +4712,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -4756,13 +4756,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4779,13 +4779,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4809,13 +4809,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4831,13 +4831,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -4904,13 +4904,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4924,7 +4924,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4944,7 +4944,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -5013,13 +5013,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5046,13 +5046,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5088,13 +5088,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5162,13 +5162,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5182,7 +5182,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5202,7 +5202,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -5271,13 +5271,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5304,13 +5304,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5346,13 +5346,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5463,13 +5463,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5483,7 +5483,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5503,7 +5503,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -5572,13 +5572,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5605,13 +5605,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5647,13 +5647,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5771,13 +5771,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5791,7 +5791,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5811,7 +5811,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -5880,13 +5880,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5913,13 +5913,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5955,13 +5955,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6017,13 +6017,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6040,13 +6040,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6070,13 +6070,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6092,13 +6092,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -6185,13 +6185,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6205,7 +6205,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6225,7 +6225,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -6294,13 +6294,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6327,13 +6327,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6369,13 +6369,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6543,13 +6543,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6566,13 +6566,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6596,13 +6596,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6618,13 +6618,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -6712,13 +6712,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6735,13 +6735,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6765,13 +6765,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6787,13 +6787,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -6843,13 +6843,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6863,7 +6863,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6883,7 +6883,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -6952,13 +6952,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6985,13 +6985,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7027,13 +7027,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7126,13 +7126,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7149,13 +7149,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7179,13 +7179,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7201,13 +7201,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -7295,13 +7295,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7318,13 +7318,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7348,13 +7348,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7370,13 +7370,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -7414,13 +7414,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7437,13 +7437,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7467,13 +7467,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7489,13 +7489,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -7564,13 +7564,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7587,13 +7587,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7617,13 +7617,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7639,13 +7639,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -7695,13 +7695,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7715,7 +7715,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7735,7 +7735,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -7804,13 +7804,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7837,13 +7837,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7879,13 +7879,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7947,13 +7947,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7967,7 +7967,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7987,7 +7987,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -8056,13 +8056,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8089,13 +8089,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8131,13 +8131,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8222,13 +8222,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8245,13 +8245,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8275,13 +8275,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8297,13 +8297,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -8353,13 +8353,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8373,7 +8373,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8393,7 +8393,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -8462,13 +8462,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8495,13 +8495,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8537,13 +8537,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8636,13 +8636,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8659,13 +8659,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8689,13 +8689,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8711,13 +8711,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -8761,13 +8761,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8781,7 +8781,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8801,7 +8801,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -8870,13 +8870,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8903,13 +8903,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8945,13 +8945,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9001,13 +9001,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9024,13 +9024,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9054,13 +9054,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9076,13 +9076,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9143,13 +9143,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9166,13 +9166,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9196,13 +9196,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9218,13 +9218,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9274,13 +9274,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9294,7 +9294,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9314,7 +9314,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9383,13 +9383,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9416,13 +9416,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9458,13 +9458,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9557,13 +9557,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9580,13 +9580,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9610,13 +9610,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9632,13 +9632,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9726,13 +9726,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9749,13 +9749,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9779,13 +9779,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9801,13 +9801,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9845,13 +9845,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9868,13 +9868,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9898,13 +9898,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9920,13 +9920,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -9995,13 +9995,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10018,13 +10018,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10048,13 +10048,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10070,13 +10070,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10114,13 +10114,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10137,13 +10137,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10167,13 +10167,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10189,13 +10189,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10239,13 +10239,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10259,7 +10259,7 @@ exports[`validator('Thing', 'array').validate(
         {
           "element": "Invalid Thing.type",
           "expectation": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10279,7 +10279,7 @@ exports[`validator('Thing', 'array').validate(
           "reason": [
             {
               "expectation": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10348,13 +10348,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10381,13 +10381,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10423,13 +10423,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10502,13 +10502,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10525,13 +10525,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10555,13 +10555,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10577,13 +10577,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10621,13 +10621,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10644,13 +10644,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10674,13 +10674,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10696,13 +10696,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10771,13 +10771,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10794,13 +10794,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10824,13 +10824,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10846,13 +10846,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10884,13 +10884,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -10907,13 +10907,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10937,13 +10937,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10959,13 +10959,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },
@@ -10997,13 +10997,13 @@ exports[`validator('Thing', 'array').validate(
         "id": "string",
         "name": "string",
         "parts": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "collection",
             "target": "Thing",
           },
         },
         "type": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -11020,13 +11020,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -11050,13 +11050,13 @@ exports[`validator('Thing', 'array').validate(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -11072,13 +11072,13 @@ exports[`validator('Thing', 'array').validate(
               "id": "string",
               "name": "string",
               "parts": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "collection",
                   "target": "Thing",
                 },
               },
               "type": {
-                "_StructuredElementReference": {
+                "_StructuredElementsReference": {
                   "structure": "item",
                   "target": [Function],
                 },

@@ -1,6 +1,6 @@
-import { type Person, PersonModel } from "./models/person"
-import { type Thing, ThingModel } from "./models/thing"
-import { StructuredElements } from "../src"
+import { StructuredElements } from "@"
+import { type Person, PersonModel } from "&/models/person"
+import { type Thing, ThingModel } from "&/models/thing"
 
 export namespace Test {
   export type Registry = {

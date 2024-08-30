@@ -17,13 +17,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -37,7 +37,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -57,7 +57,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -126,13 +126,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -159,13 +159,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -201,13 +201,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -275,13 +275,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -295,7 +295,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -315,7 +315,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -384,13 +384,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -417,13 +417,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -459,13 +459,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -533,13 +533,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -553,7 +553,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -573,7 +573,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -642,13 +642,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -675,13 +675,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -717,13 +717,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -799,13 +799,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -819,7 +819,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -839,7 +839,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -908,13 +908,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -941,13 +941,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -983,13 +983,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1057,13 +1057,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -1077,7 +1077,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1097,7 +1097,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1166,13 +1166,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1199,13 +1199,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1241,13 +1241,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1323,13 +1323,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -1343,7 +1343,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1363,7 +1363,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1432,13 +1432,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1465,13 +1465,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1507,13 +1507,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1575,13 +1575,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -1595,7 +1595,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -1615,7 +1615,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1684,13 +1684,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1717,13 +1717,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1759,13 +1759,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1821,13 +1821,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -1844,13 +1844,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1874,13 +1874,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -1896,13 +1896,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -1960,13 +1960,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -1980,7 +1980,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2000,7 +2000,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2069,13 +2069,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2102,13 +2102,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2144,13 +2144,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2218,13 +2218,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -2238,7 +2238,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2258,7 +2258,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2327,13 +2327,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2360,13 +2360,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2402,13 +2402,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2484,13 +2484,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -2504,7 +2504,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2524,7 +2524,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2593,13 +2593,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2626,13 +2626,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2668,13 +2668,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2750,13 +2750,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -2770,7 +2770,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -2790,7 +2790,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -2859,13 +2859,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2892,13 +2892,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2934,13 +2934,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -2996,13 +2996,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -3019,13 +3019,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3049,13 +3049,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3071,13 +3071,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3135,13 +3135,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -3155,7 +3155,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3175,7 +3175,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3244,13 +3244,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3277,13 +3277,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3319,13 +3319,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3381,13 +3381,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -3404,13 +3404,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3434,13 +3434,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3456,13 +3456,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3512,13 +3512,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -3532,7 +3532,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3552,7 +3552,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3621,13 +3621,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3654,13 +3654,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3696,13 +3696,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3772,13 +3772,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -3792,7 +3792,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -3812,7 +3812,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -3881,13 +3881,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3914,13 +3914,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -3956,13 +3956,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4018,13 +4018,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4041,13 +4041,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4071,13 +4071,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4093,13 +4093,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4157,13 +4157,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4177,7 +4177,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4197,7 +4197,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4266,13 +4266,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4299,13 +4299,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4341,13 +4341,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4397,13 +4397,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4420,13 +4420,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4450,13 +4450,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4472,13 +4472,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4516,13 +4516,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4539,13 +4539,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4569,13 +4569,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4591,13 +4591,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4649,13 +4649,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4669,7 +4669,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4689,7 +4689,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -4758,13 +4758,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4791,13 +4791,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4833,13 +4833,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -4907,13 +4907,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -4927,7 +4927,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -4947,7 +4947,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5016,13 +5016,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5049,13 +5049,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5091,13 +5091,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5173,13 +5173,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -5193,7 +5193,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5213,7 +5213,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5282,13 +5282,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5315,13 +5315,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5357,13 +5357,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5439,13 +5439,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -5459,7 +5459,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5479,7 +5479,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5548,13 +5548,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5581,13 +5581,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5623,13 +5623,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5685,13 +5685,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -5708,13 +5708,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5738,13 +5738,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5760,13 +5760,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5824,13 +5824,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -5844,7 +5844,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -5864,7 +5864,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -5933,13 +5933,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -5966,13 +5966,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6008,13 +6008,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6089,13 +6089,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6112,13 +6112,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6142,13 +6142,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6164,13 +6164,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6222,13 +6222,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6245,13 +6245,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6275,13 +6275,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6297,13 +6297,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6353,13 +6353,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6373,7 +6373,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -6393,7 +6393,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6462,13 +6462,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6495,13 +6495,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6537,13 +6537,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6607,13 +6607,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6630,13 +6630,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6660,13 +6660,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6682,13 +6682,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6740,13 +6740,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6763,13 +6763,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6793,13 +6793,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6815,13 +6815,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6859,13 +6859,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -6882,13 +6882,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6912,13 +6912,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -6934,13 +6934,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -6986,13 +6986,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -7009,13 +7009,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7039,13 +7039,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7061,13 +7061,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7117,13 +7117,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -7137,7 +7137,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7157,7 +7157,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7226,13 +7226,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7259,13 +7259,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7301,13 +7301,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7369,13 +7369,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -7389,7 +7389,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7409,7 +7409,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7478,13 +7478,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7511,13 +7511,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7553,13 +7553,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7623,13 +7623,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -7646,13 +7646,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7676,13 +7676,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7698,13 +7698,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7754,13 +7754,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -7774,7 +7774,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -7794,7 +7794,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -7863,13 +7863,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7896,13 +7896,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -7938,13 +7938,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8008,13 +8008,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8031,13 +8031,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8061,13 +8061,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8083,13 +8083,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8133,13 +8133,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8153,7 +8153,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8173,7 +8173,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8242,13 +8242,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8275,13 +8275,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8317,13 +8317,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8373,13 +8373,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8396,13 +8396,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8426,13 +8426,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8448,13 +8448,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8500,13 +8500,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8523,13 +8523,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8553,13 +8553,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8575,13 +8575,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8631,13 +8631,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8651,7 +8651,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -8671,7 +8671,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -8740,13 +8740,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8773,13 +8773,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8815,13 +8815,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8885,13 +8885,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -8908,13 +8908,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8938,13 +8938,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -8960,13 +8960,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9018,13 +9018,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9041,13 +9041,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9071,13 +9071,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9093,13 +9093,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9137,13 +9137,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9160,13 +9160,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9190,13 +9190,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9212,13 +9212,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9264,13 +9264,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9287,13 +9287,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9317,13 +9317,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9339,13 +9339,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9383,13 +9383,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9406,13 +9406,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9436,13 +9436,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9458,13 +9458,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9508,13 +9508,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9528,7 +9528,7 @@ exports[`validator('Thing', 'collection').getFailures(
       {
         "element": "Invalid Thing.type",
         "expectation": {
-          "_StructuredElementReference": {
+          "_StructuredElementsReference": {
             "structure": "item",
             "target": [Function],
           },
@@ -9548,7 +9548,7 @@ exports[`validator('Thing', 'collection').getFailures(
         "reason": [
           {
             "expectation": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9617,13 +9617,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9650,13 +9650,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9692,13 +9692,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9756,13 +9756,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9779,13 +9779,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9809,13 +9809,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9831,13 +9831,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -9875,13 +9875,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -9898,13 +9898,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9928,13 +9928,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -9950,13 +9950,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10002,13 +10002,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -10025,13 +10025,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10055,13 +10055,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10077,13 +10077,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10115,13 +10115,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -10138,13 +10138,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10168,13 +10168,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10190,13 +10190,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
@@ -10228,13 +10228,13 @@ exports[`validator('Thing', 'collection').getFailures(
       "id": "string",
       "name": "string",
       "parts": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "collection",
           "target": "Thing",
         },
       },
       "type": {
-        "_StructuredElementReference": {
+        "_StructuredElementsReference": {
           "structure": "item",
           "target": [Function],
         },
@@ -10251,13 +10251,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10281,13 +10281,13 @@ exports[`validator('Thing', 'collection').getFailures(
           "id": "string",
           "name": "string",
           "parts": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "collection",
               "target": "Thing",
             },
           },
           "type": {
-            "_StructuredElementReference": {
+            "_StructuredElementsReference": {
               "structure": "item",
               "target": [Function],
             },
@@ -10303,13 +10303,13 @@ exports[`validator('Thing', 'collection').getFailures(
             "id": "string",
             "name": "string",
             "parts": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "collection",
                 "target": "Thing",
               },
             },
             "type": {
-              "_StructuredElementReference": {
+              "_StructuredElementsReference": {
                 "structure": "item",
                 "target": [Function],
               },
