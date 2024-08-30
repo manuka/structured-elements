@@ -393,13 +393,13 @@ There are times when we want our data to match either a specific value, or one o
 import { Modelling, type Model } from "@lib/models"
 
 export type Thing = {
-  // other fields hidden for this example
+  // Other fields hidden for this example
   type: "gadget" | "widget"
 }
 
 export const ThingModel: Model<"Thing"> = () => {
   return {
-    // other fields hidden for this example
+    // Other fields hidden for this example
     type: Modelling.equality("item", ["gadget" | "widget"]),
   }
 }
@@ -485,7 +485,7 @@ export type PersonAPIFetchOptions = {
 export type PersonFetchResponse = {
   data: Person[]
   metadata: {
-    // whatever other stuff you get from your API responses
+    // Whatever other stuff we get from the API responses
     error?: Error
   }
 }
@@ -497,7 +497,7 @@ export const fetchPeopleFromAPI = async (
     const response = await fetch("/my_server_api/person", options)
     return response
   } catch(error) {
-    // You could do all sorts of things here but let's just return an empty response.
+    // We could do all sorts of things here but let's just return an empty response.
     return {
       data: []
       metadata: {
