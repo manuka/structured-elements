@@ -476,6 +476,7 @@ Next, we'll need some code that makes a network call to our imaginary API and re
 
 ```typescript
 // lib/person/api/fetch.ts
+
 import type { Person } from "@lib/person"
 
 export type PersonAPIFetchOptions = {
