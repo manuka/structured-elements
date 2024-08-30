@@ -78,6 +78,10 @@ export type Model<ModelId extends keyof Registry> =
   You can call it whatever you like. Modelling is just an example.
 
   The debugEnabled function lets you tell the package whether or not to log to the console.
+  It accepts a function with no arguments that returns a boolean.
+
+  The optional logDebugMessage function lets you change how debug messages will be logged.
+  It accepts a function with the same signature as console.log, which is the default value.
 
   The models function returns a collection of all of your models as runtime data.
   This allows Structured Elements to validate your data against them.
@@ -92,6 +96,9 @@ export const Modelling = StructuredElements.setup<Registry>({
   debugEnabled: () => {
     return process.env.NODE_ENV === "development"
   },
+  // logDebugMessage: (message?: any, ...optionalParams: any[]) => {
+  //   sendMessageToDebugService(message, ...optionalParams)
+  // };
   models: () => {
     return {
       Person: PersonModel,
