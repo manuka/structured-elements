@@ -1,10 +1,9 @@
 {
-  "email": "npm@luke.arndt.io",
-  "url": "https://github.com/lukearndt",
+  "author": "Manuka Coalition Ltd (https://manuka.co)",
   "bugs": {
-    "url": "https://github.com/manuka/structured-element/issues"
+    "url": "https://github.com/manuka/structured-elements/issues"
   },
-  "description": "A TypeScript package for modelling and validating data.",
+  "description": "A TypeScript package for modelling and validating data",
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.12",
@@ -24,9 +23,15 @@
   },
   "homepage": "https://github.com/manuka/structured-elements",
   "keywords": [
+    "collection",
     "data",
+    "elements",
+    "mirror",
     "model",
+    "modelling",
     "safety",
+    "structured-elements",
+    "structured",
     "type",
     "typescript",
     "validation"
