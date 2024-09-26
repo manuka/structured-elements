@@ -50,7 +50,7 @@
     "format": "prettier -w .",
     "format-check": "prettier -c .",
     "lint": "npm run eslint && npm run format",
-    "lint-check": "npm run eslint-check",
+    "lint-check": "npm run eslint-check && npm run format-check",
     "test": "jest"
   },
   "types": "dist/index.d.ts",
