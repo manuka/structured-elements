@@ -1,6 +1,6 @@
 # Structured Elements
 
-TypeScript is an excellent improvement over JavaScript, but its type safety doesn't apply to your runtime code. Since most applications source their data from external sources, we can't just assume that runtime data matches our types.
+TypeScript is an excellent improvement over JavaScript, but its type safety doesn't apply to runtime code. Since most applications source their data from external sources, we can't just assume that runtime data matches our types.
 
 Validating data by hand usually requires a whole lot of type guard functions that laboriously check each field on a given record. Since that process can be a major pain and consume a lot of development time, it's often skipped.
 
@@ -8,18 +8,18 @@ Even if we do validate our individual records, we need to consider collections. 
 
 On top of that, validation introduces a long-term maintenance overhead. Type definitions change over the lifetime of an application, and having to update or replace the corresponding validation logic can be a real burden.
 
-Structured Elements is designed to solve these problems. It will allow you to:
+Structured Elements is designed to solve these problems. It allows us to:
 
-- Model your data using definitions that are very similar to TypeScript type definitions. In fact, they're so similar that GitHub Copilot can often write them for you.
-- Use dynamic references to compose models from other models as needed, so that you can define each data structure exactly once.
-- Validate runtime data against your models to prevent runtime errors from unexpected values.
+- Model our data using definitions that are very similar to TypeScript type definitions. In fact, they're so similar that GitHub Copilot can often write them for us.
+- Use dynamic references to compose models from other models as needed, so that we can define each data structure exactly once.
+- Validate runtime data against our models to prevent runtime errors from unexpected values.
 - Use the same core model defintion to validate data as individual items, arrays, key/value collections, and mirrors.
-- Express collections of data as mirrors, allowing you to interact with it as an array or key/value object as needed.
+- Express collections of data as mirrors, allowing us to interact with it as an array or key/value object as needed.
 - Automatically salvage collections of data that have a mixture of valid and invalid elements.
-- Automatically cache models and validation results so that your application is nice and fast.
-- Access validation results so that you can understand why a given record is invalid in exacting detail.
+- Automatically cache models and validation results so that our application is nice and fast.
+- Access validation results so that we can understand why a given record is invalid in exacting detail.
 
-The overall goal of Structured Elements is to make your runtime data as type-safe as possible so that you can trust it. When applied well, this can eliminate what is arguably the most common source of errors and other bugs.
+The overall goal of Structured Elements is to make runtime data as type-safe as possible so that we can trust it. When applied well, this can eliminate what is arguably the most common source of errors and other bugs.
 
 ## Installation
 
@@ -31,7 +31,7 @@ npm install structured-elements@latest --save
 
 ## Setup
 
-Once installed, you'll need to set up a local API in your application. This is a file that you'll import throughout your application, so put it somewhere easy to reference like `lib/models.ts`.
+Once installed, we'll need to set up a local API in our application. This is a file that we'll import throughout the application, so put it somewhere easy to reference like `lib/models.ts`.
 
 An example API file:
 
@@ -41,24 +41,24 @@ An example API file:
 
   In this example, our application cares about two types: Person and Thing.
 
-  Yours will probably have a lot more of them.
+  A real application will probably have a lot more of them.
 */
 
 /*
-  We recommend that you keep your types and their models in other files throughout your
-  application. You'll need to import them here so that you can add them to the registry.
+  We recommend that keeping types and their models in other files throughout the
+  application, then importing them here so that they can be added to the registry.
 */
 import { type Person, PersonModel } from "@/lib/person"
 import { type Thing, ThingModel } from "@/lib/thing"
 
 /*
-  The Registry type lists all of the types that you want the library to know about.
-  This allows Structured Elements to reason about your data using TypeScript.
+  The Registry type lists all of the types that we want the library to know about.
+  This allows Structured Elements to reason about our data using TypeScript.
 
-    Key: A unique ModelId string that you'll use to reference the model.
+    Key: A unique ModelId string that we'll use to reference the model.
     Value: The TypeScript type that the model corresponds to.
 
-  List every type that you want to be able to validate data against.
+  We ought to list every type that we want to be able to validate data against.
   Person and Thing are just examples.
 */
 export type Registry = {
@@ -67,29 +67,29 @@ export type Registry = {
 }
 
 /*
-  This allows TypeScript to spot when your models don't match your types.
-  You can use it as shown here and don't need to maintain it.
+  This allows TypeScript to spot when models don't match their types.
+  We can use it as shown here and don't need to maintain it.
 */
 export type Model<ModelId extends keyof Registry> =
   StructuredElements.Functions.BuildModelExpectation<Registry, ModelId>
 
 /*
-  This is the API object that allows your application to use Structured Elements.
-  You can call it whatever you like. Modelling is just an example.
+  This is the API object that allows the application to use Structured Elements.
+  We can call it whatever we like. Modelling is just an example.
 
-  The debugEnabled function lets you tell the package whether or not to log to the console.
+  The debugEnabled function lets us tell the package whether or not to log to the console.
   It accepts a function with no arguments that returns a boolean.
 
-  The optional logDebugMessage function lets you change how debug messages will be logged.
+  The optional logDebugMessage function lets us change how debug messages will be logged.
   It accepts a function with the same signature as console.log, which is the default value.
 
-  The models function returns a collection of all of your models as runtime data.
-  This allows Structured Elements to validate your data against them.
+  The models function returns a collection of all of our models as runtime data.
+  This allows Structured Elements to validate data against them.
 
-    Key: A unique ModelId that matches the one in your Registry type.
-    Value: The Model definition that will be used to validate your runtime data.
+    Key: A unique ModelId that matches the one in the Registry type.
+    Value: The Model definition that will be used to validate runtime data.
 
-  You must list a model for every type in your application's Registry.
+  We must list a model for every type in the application's Registry.
   Person and Thing are just examples.
 */
 export const Modelling = StructuredElements.setup<Registry>({
@@ -110,13 +110,13 @@ export const Modelling = StructuredElements.setup<Registry>({
 
 ## Models
 
-Models are data structures that allow Structured Elements to understand your types at runtime, which enables validation.
+Models are data structures that allow Structured Elements to understand our types at runtime, which enables validation.
 
-You don't need a model for every single type in your application, only the ones that you want to be able to validate.
+We don't need a model for every single type in the application, only the ones that we want to be able to validate.
 
-You also don't need to define models for collection types; those are handled by Structures.
+We also don't need to define models for collection types; those are handled by Structures.
 
-The standard approach is to put your model definitions in the same place as your TypeScript types.
+The standard approach is to put model definitions in the same place as our TypeScript types, ideally without any other lines between them. This makes it easier for us to update them both together as our application grows and changes.
 
 Here are some examples using the Person and Thing types:
 
@@ -141,7 +141,7 @@ export const PersonModel: Model<"Person"> = {
 }
 ```
 
-Often our types have fields that can be one of a number of possible values. We represent this in our models using an inline array. The validation will succeed as long as the field matches at least one of the values in the array.
+Types often have fields that can be one of a number of possible values. We represent this in our models using an inline array. The validation will succeed as long as the field matches at least one of the values in the array.
 
 When our TypeScript types reference other non-primitive types, we can do the same in our models using the `reference` method on our API object. Note how the Person in our example contains an array of Thing objects.
 
@@ -216,15 +216,15 @@ Each element in the mirror is of the same type. The array and collection contain
 
 Mirrors are a useful way to express readonly data because we can interact with it as either an array or an object as needed.
 
-Structured Elements exports the Mirror type directly so that you can use it throughout your application.
+Structured Elements exports the Mirror type directly so that we can use it throughout the application.
 
 We can build a Mirror using the `Mirror.build` function. It accepts two arguments: `data` and `options`.
 
-The `data` argument is the data that you want to store in the mirror. You can pass in either an array or a collection.
+The `data` argument is the data that we want to store in the mirror. We can pass in either an array or a collection.
 
-If you pass the data in as an array, you will need to pass an `extractKey` function as part of the options unless every item in the array has a string `id` field.
+If we pass the data in as an array, we will need to pass an `extractKey` function as part of the options unless every item in the array has a string `id` field.
 
-You can use the `options` argument to tweak the following aspects of the Mirror creation process:
+We can use the `options` argument to tweak the following aspects of the Mirror creation process:
 
 #### Base
 
@@ -232,7 +232,7 @@ Key: `"base"`
 
 Type: `Mirror<Element>`
 
-By supplying this argument, you can build a mirror that has every element in the base mirror in addition to what you pass in as the `data`. This can be useful when you need to create a new version of a mirror with added or updated data, since each mirror is read only by nature.
+By supplying this argument, we can build a mirror that has every element in the base mirror in addition to what we pass in as the `data`. This can be useful when we need to create a new version of a mirror with added or updated data, since each mirror is read only by nature.
 
 If the base mirror and new data contain any of the same keys, the new mirror will source those elements from the data. It will not attempt to merge the individual elements in any way.
 
@@ -242,9 +242,9 @@ Key: `"extractKey"`
 
 Type: `(record: Element) => Key`
 
-When you build a new mirror from data in an array, the process needs to know what the collection will use as keys. By default, the key of each collection element will be the `id` of the element.
+When we build a new mirror from data in an array, the process needs to know what the collection will use as keys. By default, the key of each collection element will be the `id` of the element.
 
-If your data's individual elements do not have an `id` field of type `string`, this option becomes mandatory.
+If the data's individual elements do not have an `id` field of type `string`, this option becomes mandatory.
 
 #### Sort
 
@@ -252,11 +252,11 @@ Key: `"sort"`
 
 Type: `(a: Element, b: Element) => number`
 
-By default, the `array` and `collection` in a new mirror will be in the same order as the data you build it from.
+By default, the `array` and `collection` in a new mirror will be in the same order as the data that we build it from.
 
-This default sort order is not guaranteed if you also supply a base mirror to the `base` option. In that case, the new mirror will most likely contain all of the elements from the base mirror and then any new ones afterward.
+This default sort order is not guaranteed if we also supply a base mirror to the `base` option. In that case, the new mirror will most likely contain all of the elements from the base mirror and then any new ones afterward.
 
-When you need the data to be ordered in a specific way, you can pass a sort function. This behaves just like a compare function that you would pass when you call `.sort` on the data as an array, since it uses that same function under the hood.
+When we need the data to be ordered in a specific way, we can pass a sort function. This behaves just like a compare function that we would pass when calling `.sort` on the data as an array. It uses that same process in its underlying implementation.
 
 Please note that this option slows the performance of the build process by a modest amount, although this is only noticeable with significantly large data sets.
 
@@ -308,7 +308,7 @@ export const FridgeModel: Model<"Fridge"> = () => {
   return {
     colours: { // This is a RecordSchema expectation.
       chassis: "string",
-      doors: { // So is this. As you can see, we can nest them.
+      doors: { // So is this. We can nest them as deeply as we want.
         bottom: "string",
         middle: ["string", undefined],
         top: "string",
@@ -465,7 +465,7 @@ Data is often nested or interrelated in some way. TypeScript supports this by al
 
 We represent this concept in our models using references. Under the hood, these are special `ReferenceContainer` objects recognised by Structured Elements using a reserved `_StructuredElementsReference` key and some metadata.
 
-You can add a reference to a model definition by calling the `reference` function on your API object. The function takes two sequential arguments: `structure` and `target`.
+We can add a reference to a model definition by calling the `reference` function on our application's API object. The function takes two sequential arguments: `structure` and `target`.
 
 The `structure` argument must be one of the available structure options: `"item"`, `"array"`, `"collection"`, or `"mirror"`.
 
@@ -473,7 +473,7 @@ The `target` argument can be either a ModelId from the registry or an inline exp
 
 ## Usage example: fetch and validate a list of people
 
-In this example, our goal is to fetch a list of Person records from an API so that we can use it throughout the application.
+In this example, our goal is to fetch a list of Person records from an external API so that we can use it throughout the application.
 
 Some of our code wants to interact with individual Person items, accessing them by key. Our user interface wants to be able to render them as a list. To enable both of those requirements in a performance-friendly manner, we'll store the data in a Mirror.
 
@@ -580,7 +580,7 @@ During setup, we build the full registry of the application's models and cache i
 
 ### API Function Caching
 
-Also during setup, we curry each API function with the registry and cache that curried function on the API object. This allows us to build the registry only once, and prevents you from having to pass it around.
+Also during setup, we curry each API function with the registry and cache that curried function on the API object. This allows us to build the registry only once, and prevents us from having to pass it around.
 
 ### Validator Caching
 
