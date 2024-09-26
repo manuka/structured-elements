@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Invalid), person2: (Invalid), },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Invalid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Invalid), person2: undefined, },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Valid), person2: (Invalid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Valid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: (Valid), person2: undefined, },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: undefined, person2: (Invalid), },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: undefined, person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Invalid), person1: undefined, person2: undefined, },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Invalid), person2: (Invalid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Invalid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Invalid), person2: undefined, },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Valid), person2: (Invalid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Valid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: (Valid), person2: undefined, },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: undefined, person2: (Invalid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: undefined, person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: (Valid), person1: undefined, person2: undefined, },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-0",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Invalid), person2: (Invalid), },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Invalid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Invalid), person2: undefined, },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Valid), person2: (Invalid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Valid), person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: (Valid), person2: undefined, },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-1",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: undefined, person2: (Invalid), },
+  'Person'
+) 1`] = `[]`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: undefined, person2: (Valid), },
+  'Person'
+) 1`] = `
+[
+  {
+    "id": "Valid Person.id-2",
+    "inventory": [
+      {
+        "id": "Valid Thing.id",
+        "name": "Valid Thing.name",
+        "parts": {},
+        "type": "gadget",
+        "weight": 1,
+      },
+    ],
+    "name": "Valid Person.name",
+  },
+]
+`;
+
+exports[`validator('Person', 'array').getSalvage(
+  { person0: undefined, person1: undefined, person2: undefined, },
+  'Person'
+) 1`] = `[]`;

@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Invalid), thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: (Valid), thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-0": {
+    "id": "Valid Thing.id-0",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-1": {
+    "id": "Valid Thing.id-1",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `{}`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `
+{
+  "Valid Thing.id-2": {
+    "id": "Valid Thing.id-2",
+    "name": "Valid Thing.name",
+    "parts": {},
+    "type": "gadget",
+    "weight": 1,
+  },
+}
+`;
+
+exports[`validator('Thing', 'collection').getSalvage(
+  { thing0: undefined, thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `{}`;

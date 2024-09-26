@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Invalid), thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `true`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: (Valid), thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Invalid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Invalid), thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Invalid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Valid), thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Valid), thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: (Valid), thing2: undefined, },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: undefined, thing2: (Invalid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: undefined, thing2: (Valid), },
+  'Thing'
+) 1`] = `false`;
+
+exports[`validator('Thing', 'mirror').isValid(
+  { thing0: undefined, thing1: undefined, thing2: undefined, },
+  'Thing'
+) 1`] = `false`;

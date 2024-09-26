@@ -1,0 +1,3601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Invalid Thing)], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing), (Invalid Thing)], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [(Valid Thing)], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: [], id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: array, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: null, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: number, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: object, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: string, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: string, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: array, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: null, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: number, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: object, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: string, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: array, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: null, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: number, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: object, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: string, },
+  'Person'
+) 1`] = `undefined`;
+
+exports[`validator('Person', 'item').getSalvage(
+  { inventory: undefined, id: undefined, name: undefined, roleId: undefined, },
+  'Person'
+) 1`] = `undefined`;
