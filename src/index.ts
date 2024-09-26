@@ -60,7 +60,7 @@ import { isArray } from "@/is/array"
 //
 // (lib/models.ts)
 //
-// import { StructuredElements } from 'structured-elements;
+// import { StructuredElements } from 'structured-elements';
 // import { type Person, PersonModel } from '@/lib/person';
 // import { type Thing, ThingModel } from '@/lib/thing';
 //
