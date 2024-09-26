@@ -10,7 +10,7 @@
     "outDir": "./dist",
     "paths": {
       "@": ["src/index"],
-      "@/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "sourceMap": true,
     "strict": true,
