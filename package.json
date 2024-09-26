@@ -46,9 +46,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "eslint": "eslint . --fix",
-    "format:check": "prettier -c .",
+    "eslint-check": "eslint .",
     "format": "prettier -w .",
+    "format-check": "prettier -c .",
     "lint": "npm run eslint && npm run format",
+    "lint-check": "npm run eslint-check",
     "test": "jest"
   },
   "types": "dist/index.d.ts",
