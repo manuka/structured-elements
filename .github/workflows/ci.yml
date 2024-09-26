@@ -25,6 +25,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm install
       - run: npm run build
 
   format:
@@ -46,6 +47,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm install
       - run: npm run format-check
 
   lint:
@@ -67,6 +69,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm install
       - run: npm run lint-check
 
   test:
@@ -88,4 +91,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - run: npm install
       - run: npm run test
