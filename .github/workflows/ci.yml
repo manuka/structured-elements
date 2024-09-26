@@ -9,6 +9,8 @@ on:
       - main
       - "releases/**"
   pull_request:
+    branches-ignore:
+      - "releases/**"
 
 jobs:
   build:
