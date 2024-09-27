@@ -55,5 +55,5 @@
     "verify": "npm run lint-check && npm run test && npm run build"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
