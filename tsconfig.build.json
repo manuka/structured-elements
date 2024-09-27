@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
-    "baseUrl": ".",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
@@ -9,13 +10,12 @@
     "noErrorTruncation": true,
     "outDir": "./dist",
     "paths": {
-      "@": ["src/index"],
-      "@/*": ["src/*"]
+      "@": ["./index"],
+      "@/*": ["./*"]
     },
     "sourceMap": true,
     "strict": true,
     "target": "ES2019"
   },
-  "exclude": ["node_modules", "test"],
   "include": ["src"]
 }

@@ -51,7 +51,8 @@
     "format-check": "prettier -c .",
     "lint": "npm run eslint && npm run format",
     "lint-check": "npm run eslint-check && npm run format-check",
-    "test": "jest"
+    "test": "jest",
+    "verify": "npm run lint-check && npm run test && npm run build"
   },
   "types": "dist/index.d.ts",
   "version": "1.0.0"
