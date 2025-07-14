@@ -19,6 +19,7 @@
     "test-nested-scenarios": "^1.0.2",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
+    "tsconfig-replace-paths": "^0.0.14",
     "typescript": "^4.6.4"
   },
   "homepage": "https://github.com/manuka/structured-elements",
@@ -44,7 +45,7 @@
     "url": "https://github.com/manuka/structured-elements.git"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json && tsconfig-replace-paths -p tsconfig.build.json",
     "eslint": "eslint . --fix",
     "eslint-check": "eslint .",
     "format": "prettier -w .",
@@ -55,5 +56,5 @@
     "verify": "npm run lint-check && npm run test && npm run build"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

@@ -2,7 +2,7 @@ import type { StructuredElements } from "@"
 import { Test } from "&"
 import type { Thing } from "&/models/thing"
 import { curryTestByInputType } from "&/scenarios/inputType"
-import { curryTestByParts } from "&/scenarios/thing.ts/parts"
+import { curryTestByParts } from "&/scenarios/thing/parts"
 import type { NestedTest } from "test-nested-scenarios"
 
 type TestArgs = {
